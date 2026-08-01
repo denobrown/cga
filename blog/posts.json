@@ -1,3 +1,16 @@
 {
-  "posts": []
+  "posts": [
+    {
+      "slug": "daily-briefing-2026-08-01",
+      "title": "Daily Tech Briefing — 2 August 2026",
+      "dateISO": "2026-08-01T21:59:08.163Z",
+      "dateHuman": "2 August 2026",
+      "excerpt": "Between 2016 and 2020, she worked in advertising and branding, developing campaigns for clients including Nigerian tier-one lenders Access Bank and Zenith Bank.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    }
+  ]
 }
