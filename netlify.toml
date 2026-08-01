@@ -7,15 +7,15 @@
   command = ""
   functions = "netlify/functions"
 
-# ── Scheduled function: Daily Tech Briefing generator ─────
-# Runs once a day at 05:00 UTC (~08:00 EAT) — fetches curated RSS from
-# vetted Kenyan/African, security, and global tech sources server-side,
-# writes one short original-summary post + attributed outbound links
-# (never full article text — see /blog Editorial Policy), and commits it
-# via the GitHub Contents API, which triggers a normal git-based deploy.
-# Cron runs in UTC regardless of account settings.
-[functions."generate-daily-blog"]
-  schedule = "0 5 * * *"
+# NOTE: the daily blog generator moved to a GitHub Actions workflow
+# (.github/workflows/daily-blog.yml) instead of a Netlify scheduled
+# function. Reason: Netlify scheduled functions reject direct/manual
+# invocation (always 401), which made the pipeline untestable without
+# waiting for the cron. Actions gives a "Run workflow" button, a
+# built-in token (no PAT to create/rotate), and visible logs — Netlify
+# now only does what it already does well: deploy on push to main.
+# netlify/functions/generate-daily-blog.js is left in the repo but is
+# no longer scheduled or called by anything; delete it whenever convenient.
 
 # ── Redirects ────────────────────────────────────────────
 [[redirects]]
@@ -23,6 +23,17 @@
   to     = "https://cloudgridafrica.netlify.app/:splat"
   status = 301
   force  = true
+
+# IMPORTANT: this rule must stay ABOVE the "/* -> /index.html" catch-all
+# below. Without it, every request under /blog/ gets rewritten to serve
+# the homepage instead (and since the homepage's images use bare-relative
+# paths like src="logo.jpg", they then resolve as /blog/logo.jpg and
+# break — this is exactly what caused the "disorganized" /blog/ output).
+[[redirects]]
+  from   = "/blog/*"
+  to     = "/blog/:splat"
+  status = 200
+  force  = false
 
 [[redirects]]
   from   = "/*"
