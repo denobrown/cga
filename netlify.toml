@@ -1,0 +1,165 @@
+# ═══════════════════════════════════════════════════════════
+#  CloudGrid Africa — Netlify Configuration
+# ═══════════════════════════════════════════════════════════
+
+[build]
+  publish = "."
+  command = ""
+  functions = "netlify/functions"
+
+# NOTE: the daily blog generator moved to a GitHub Actions workflow
+# (.github/workflows/daily-blog.yml) instead of a Netlify scheduled
+# function. Reason: Netlify scheduled functions reject direct/manual
+# invocation (always 401), which made the pipeline untestable without
+# waiting for the cron. Actions gives a "Run workflow" button, a
+# built-in token (no PAT to create/rotate), and visible logs — Netlify
+# now only does what it already does well: deploy on push to main.
+# netlify/functions/generate-daily-blog.js is left in the repo but is
+# no longer scheduled or called by anything; delete it whenever convenient.
+
+# ── Redirects ────────────────────────────────────────────
+[[redirects]]
+  from   = "http://cloudgridafrica.netlify.app/*"
+  to     = "https://cloudgridafrica.netlify.app/:splat"
+  status = 301
+  force  = true
+
+# IMPORTANT: this rule must stay ABOVE the "/* -> /index.html" catch-all
+# below. Without it, every request under /blog/ gets rewritten to serve
+# the homepage instead (and since the homepage's images use bare-relative
+# paths like src="logo.jpg", they then resolve as /blog/logo.jpg and
+# break — this is exactly what caused the "disorganized" /blog/ output).
+[[redirects]]
+  from   = "/blog/*"
+  to     = "/blog/:splat"
+  status = 200
+  force  = false
+
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
+
+# ═══════════════════════════════════════════════════════════
+#  SECURITY HEADERS
+# ═══════════════════════════════════════════════════════════
+[[headers]]
+  for = "/*"
+  [headers.values]
+
+    # ── 1. CSP ─────────────────────────────────────────────
+    # script-src: uses SHA-256 hash of the single inline script block.
+    # No 'unsafe-inline' in script-src. Hash must be recomputed if
+    # the inline <script> block changes. Run:
+    #   python3 -c "import re,hashlib,base64
+    #   c=open('index.html').read()
+    #   m=re.search(r'<script>(.*?)</script>',c,re.DOTALL)
+    #   print('sha256-'+base64.b64encode(hashlib.sha256(m.group(1).encode()).digest()).decode())"
+    # style-src: 'unsafe-inline' is required for inline <style> on a
+    # static Netlify site without a server-side build pipeline.
+    # This is a known limitation of static hosting — all inline CSS
+    # would need to be moved to external files to eliminate it.
+    # NOTE: api.allorigins.win and corsproxy.io removed 2026 — grep confirmed
+    # neither is referenced by any script on this site (tryNetlifyFn hits the
+    # first-party /.netlify/functions/feed proxy; tryGoogleNews hits Google
+    # directly). Unused CSP allowances only widen the exfil surface if a
+    # future XSS is ever introduced — remove entries as soon as code stops
+    # using them, not just when adding new ones.
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'sha256-zLhuigO24emDcf/cYXnXH0IcEGPOOlZylpo7BWGD6qI=' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: blob: https:; connect-src 'self' https://www.google-analytics.com https://api.open-meteo.com https://news.google.com; media-src 'none'; object-src 'none'; frame-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests;"
+
+    # ── 2. X-Frame-Options (HTTP header only — never in <meta>) ──
+    X-Frame-Options = "DENY"
+
+    # ── 3. MIME sniffing protection ─────────────────────────
+    X-Content-Type-Options = "nosniff"
+
+    # ── 4. Referrer policy ──────────────────────────────────
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+    # ── 5. Permissions policy — disable unused browser APIs ─
+    Permissions-Policy = "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), cross-origin-isolated=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), usb=(), web-share=(), interest-cohort=()"
+
+    # ── 6. HSTS — force HTTPS for 2 years ───────────────────
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+
+    # ── 7. Legacy XSS protection ─────────────────────────────
+    X-XSS-Protection = "1; mode=block"
+
+    # ── 8. Cross-origin opener policy ───────────────────────
+    Cross-Origin-Opener-Policy = "same-origin-allow-popups"
+
+    # ── 9. Cache-Control for HTML ────────────────────────────
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# ── Blog section: tighter CSP (no inline <style>, so no ──
+# unsafe-inline needed here — proves out the tightening path noted
+# above for the homepage's single inline <style> block)
+[[headers]]
+  for = "/blog/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self'; script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://www.google-analytics.com; media-src 'none'; object-src 'none'; frame-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests;"
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# ── Static asset caching ──────────────────────────────────
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=86400"
+    Cross-Origin-Resource-Policy = "cross-origin"
+
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=86400"
+    Cross-Origin-Resource-Policy = "cross-origin"
+
+[[headers]]
+  for = "/*.webp"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=86400"
+    Cross-Origin-Resource-Policy = "cross-origin"
+
+[[headers]]
+  for = "/*.woff2"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Access-Control-Allow-Origin = "*"
+
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+    Content-Type  = "application/xml; charset=utf-8"
+
+[[headers]]
+  for = "/robots.txt"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+    Content-Type  = "text/plain; charset=utf-8"
+
+[[headers]]
+  for = "/llms.txt"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+    Content-Type  = "text/plain; charset=utf-8"
+
+# ── Verification URLs ─────────────────────────────────────
+# Security headers:  https://securityheaders.com/?q=cloudgridafrica.com
+# CSP evaluator:     https://csp-evaluator.withgoogle.com/
+# PageSpeed:         https://pagespeed.web.dev/analysis?url=https://cloudgridafrica.com
+# ARIA validator:    https://validator.w3.org/
+# Schema validator:  https://validator.schema.org/
