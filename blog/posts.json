@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-08-02",
+      "title": "Daily Tech Briefing — 2 August 2026",
+      "dateISO": "2026-08-02T07:33:28.860Z",
+      "dateHuman": "2 August 2026",
+      "excerpt": "Angelopoulos, who joins Nedbank on September 1, spent eight years overseeing technology strategy, cloud investments and digital infrastructure across MTN Group's 16 markets.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-08-01",
       "title": "Daily Tech Briefing — 2 August 2026",
       "dateISO": "2026-08-01T21:59:08.163Z",
