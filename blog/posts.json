@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-08-03",
+      "title": "Daily Tech Briefing — 3 August 2026",
+      "dateISO": "2026-08-03T08:37:17.127Z",
+      "dateHuman": "3 August 2026",
+      "excerpt": "In today's edition: South Africans are paying less for TV, shopping &#124;&#124; Kenya to tackle piracy &#124;&#124; HSBC Egypt finds a buyer for retail business &#124;&#124; Telecom Namibia extends acting CEO tenure",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-08-02",
       "title": "Daily Tech Briefing — 2 August 2026",
       "dateISO": "2026-08-02T07:33:28.860Z",
