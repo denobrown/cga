@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-08-04",
+      "title": "Daily Tech Briefing — 4 August 2026",
+      "dateISO": "2026-08-04T07:41:57.915Z",
+      "dateHuman": "4 August 2026",
+      "excerpt": "In today's edition: Nigeria issues crypto tax rules &#124;&#124; South Africa’s new rules for spam callers &#124;&#124; South Africa’s capital-control rules for crypto &#124;&#124; DR Congo walks back on digital tax p…",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-08-03",
       "title": "Daily Tech Briefing — 3 August 2026",
       "dateISO": "2026-08-03T08:37:17.127Z",
