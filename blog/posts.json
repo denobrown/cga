@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-08-05",
+      "title": "Daily Tech Briefing — 5 August 2026",
+      "dateISO": "2026-08-05T07:42:23.206Z",
+      "dateHuman": "5 August 2026",
+      "excerpt": "Egyptian prop-tech startup Partment is working to redefine second-home ownership and real estate investment via its &#8220;invest and experience&#8221; co-ownership platform.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-08-04",
       "title": "Daily Tech Briefing — 4 August 2026",
       "dateISO": "2026-08-04T07:41:57.915Z",
