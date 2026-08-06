@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-08-06",
+      "title": "Daily Tech Briefing — 6 August 2026",
+      "dateISO": "2026-08-06T07:42:22.768Z",
+      "dateHuman": "6 August 2026",
+      "excerpt": "In partnership with Lire en Français اقرأ هذا باللغة العربية Good morning.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-08-05",
       "title": "Daily Tech Briefing — 5 August 2026",
       "dateISO": "2026-08-05T07:42:23.206Z",
