@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-08-07",
+      "title": "Daily Tech Briefing — 7 August 2026",
+      "dateISO": "2026-08-07T06:10:41.821Z",
+      "dateHuman": "7 August 2026",
+      "excerpt": "Meet Mohammed Bashir Yunusa, the Divisional Head, Digital Banking &#038; Commerce at The Alternative Bank, with over 15 years of experience creating value across the financial services industry.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-08-06",
       "title": "Daily Tech Briefing — 6 August 2026",
       "dateISO": "2026-08-06T07:42:22.768Z",
