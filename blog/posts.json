@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-08-08",
+      "title": "Daily Tech Briefing — 8 August 2026",
+      "dateISO": "2026-08-08T05:43:50.620Z",
+      "dateHuman": "8 August 2026",
+      "excerpt": "IHS Towers has completed the sale of its Latin American tower operations to Macquarie Asset Management, exiting the region as the company reshapes its portfolio ahead of MTN Group’s planned acquisition.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-08-07",
       "title": "Daily Tech Briefing — 7 August 2026",
       "dateISO": "2026-08-07T06:10:41.821Z",
