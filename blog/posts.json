@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-08-11",
+      "title": "Daily Tech Briefing — 11 August 2026",
+      "dateISO": "2026-08-11T05:54:34.876Z",
+      "dateHuman": "11 August 2026",
+      "excerpt": "Nigeria is moving to bring more of its cloud infrastructure within the country, seeking to cut reliance on overseas systems and keep more of the digital economy’s value at home.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-08-10",
       "title": "Daily Tech Briefing — 10 August 2026",
       "dateISO": "2026-08-10T06:12:15.092Z",
