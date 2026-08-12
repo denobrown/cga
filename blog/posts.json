@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-08-12",
+      "title": "Daily Tech Briefing — 12 August 2026",
+      "dateISO": "2026-08-12T06:17:23.855Z",
+      "dateHuman": "12 August 2026",
+      "excerpt": "MTN’s underlying earnings are expected to rise by up to 23%, but a write-down on its Irancell investment, compounded by hyperinflation and foreign exchange losses, is dragging reported earnings lower.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-08-11",
       "title": "Daily Tech Briefing — 11 August 2026",
       "dateISO": "2026-08-11T05:54:34.876Z",
