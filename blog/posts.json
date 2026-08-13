@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-08-13",
+      "title": "Daily Tech Briefing — 13 August 2026",
+      "dateISO": "2026-08-13T06:18:50.262Z",
+      "dateHuman": "13 August 2026",
+      "excerpt": "In today's edition: Virtual asset firms to join CBN’s sandbox &#124;&#124; Jumia secures $50 million equity funding &#124;&#124; Shoprite’s Sixty60 is having a moment &#124;&#124; Vodacom taps ex-Airtel CEO to join board",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-08-12",
       "title": "Daily Tech Briefing — 12 August 2026",
       "dateISO": "2026-08-12T06:17:23.855Z",
