@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-08-15",
+      "title": "Daily Tech Briefing — 15 August 2026",
+      "dateISO": "2026-08-15T05:27:49.398Z",
+      "dateHuman": "15 August 2026",
+      "excerpt": "Google Antigravity explained: what the agentic development platform is, how AI agents work, and why it matters for the future of coding.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-08-14",
       "title": "Daily Tech Briefing — 14 August 2026",
       "dateISO": "2026-08-14T06:16:21.469Z",
