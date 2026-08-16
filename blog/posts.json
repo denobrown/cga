@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-08-16",
+      "title": "Daily Tech Briefing — 16 August 2026",
+      "dateISO": "2026-08-16T05:31:08.069Z",
+      "dateHuman": "16 August 2026",
+      "excerpt": "In 2026, South Africa has taken a harder stance against undocumented immigration, stepping up workplace inspections and putting greater pressure on employers who hire foreign workers without valid work authorisation.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-08-15",
       "title": "Daily Tech Briefing — 15 August 2026",
       "dateISO": "2026-08-15T05:27:49.398Z",
