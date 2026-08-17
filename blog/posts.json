@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-08-17",
+      "title": "Daily Tech Briefing — 17 August 2026",
+      "dateISO": "2026-08-17T05:37:33.201Z",
+      "dateHuman": "17 August 2026",
+      "excerpt": "Nigeria’s SEC has admitted Yellow Card, Blockchain, and Pisi into its regulatory sandbox, expanding the ARIP programme to 12 firms since July.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-08-16",
       "title": "Daily Tech Briefing — 16 August 2026",
       "dateISO": "2026-08-16T05:31:08.069Z",
