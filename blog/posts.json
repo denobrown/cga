@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-08-18",
+      "title": "Daily Tech Briefing — 18 August 2026",
+      "dateISO": "2026-08-18T05:32:34.502Z",
+      "dateHuman": "18 August 2026",
+      "excerpt": "After years of losing ground to Point-of-Sale (PoS) agents, Automated Teller Machines (ATMs) are making a comeback as transaction volumes rise while PoS volumes decline.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-08-17",
       "title": "Daily Tech Briefing — 17 August 2026",
       "dateISO": "2026-08-17T05:37:33.201Z",
