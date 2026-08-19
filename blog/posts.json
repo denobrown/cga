@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-08-19",
+      "title": "Daily Tech Briefing — 19 August 2026",
+      "dateISO": "2026-08-19T05:33:21.016Z",
+      "dateHuman": "19 August 2026",
+      "excerpt": "On Monday, Nigeria’s Federal Ministry of Communications, Innovation and Digital Economy released the National Digital Cloud Policy.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-08-18",
       "title": "Daily Tech Briefing — 18 August 2026",
       "dateISO": "2026-08-18T05:32:34.502Z",
