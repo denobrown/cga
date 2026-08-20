@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-08-20",
+      "title": "Daily Tech Briefing — 20 August 2026",
+      "dateISO": "2026-08-20T05:33:48.036Z",
+      "dateHuman": "20 August 2026",
+      "excerpt": "Nigeria has spent nearly two decades embedding entrepreneurship education in higher education.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-08-19",
       "title": "Daily Tech Briefing — 19 August 2026",
       "dateISO": "2026-08-19T05:33:21.016Z",
