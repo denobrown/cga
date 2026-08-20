@@ -1,0 +1,42 @@
+User-agent: *
+Allow: /
+Allow: /checklist
+
+# Block function/admin endpoints
+# NOTE: the previous rule here was "Disallow: /_netlify/" which never
+# matched anything real — the actual function paths are under
+# /.netlify/functions/ (leading dot, "functions" segment). Fixed below.
+Disallow: /.netlify/
+Disallow: /admin
+
+# Search engines
+User-agent: Googlebot
+Allow: /
+User-agent: Bingbot
+Allow: /
+
+# AI answer-engine / training crawlers
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+User-agent: YouBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: CCBot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+User-agent: Amazonbot
+Allow: /
+
+# Sitemap — was pointing at the netlify.app staging subdomain, not the
+# real domain. Fixed.
+Sitemap: https://cloudgridafrica.com/sitemap.xml

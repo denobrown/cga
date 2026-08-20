@@ -28,7 +28,7 @@
 <link rel="dns-prefetch" href="https://www.googletagmanager.com"/>
 
 <!-- Performance: Preload critical above-fold image -->
-<link rel="preload" as="image" href="logo-44w.webp" imagesrcset="logo-44w.webp 1x, logo-88w.webp 2x" imagesizes="44px" fetchpriority="high" type="image/webp"/>
+<link rel="preload" as="image" href="/logo-44w.webp" imagesrcset="logo-44w.webp 1x, logo-88w.webp 2x" imagesizes="44px" fetchpriority="high" type="image/webp"/>
 <link rel="preload" href="https://fonts.gstatic.com/s/outfit/v11/QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC1C4G-EiAou6Y.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
 
 <!-- Mobile / PWA -->
@@ -52,7 +52,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap&font-display=swap" rel="stylesheet" media="print" onload="this.media='all'"/>
 <noscript></noscript>
-<link rel="icon" type="image/jpeg" href="logo.jpg"/>
+<link rel="icon" type="image/jpeg" href="/logo.jpg"/>
+<link rel="manifest" href="/manifest.json"/>
+<link rel="apple-touch-icon" href="/assets/icons/icon-192.png"/>
 <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
@@ -223,8 +225,7 @@
       "sameAs": [
         "https://www.linkedin.com/company/cloudgrid-africa",
         "https://instagram.com/cloudgridafrica",
-        "https://twitter.com/cloudgridafrica",
-        "https://wa.me/254721656835"
+        "https://twitter.com/cloudgridafrica"
       ]
     },
     {
@@ -449,14 +450,13 @@
   "@context": "https://schema.org",
   "@type": "Person",
   "@id": "https://cloudgridafrica.com/#denis",
-  "name": "Denis",
+  "name": "Denis Murila",
   "jobTitle": "Founder & Lead Cloud Architect",
   "description": "Founder of CloudGrid Africa. Cloud architect and cybersecurity engineer specialising in enterprise infrastructure, AI automation and data protection for Kenyan and East African businesses.",
   "worksFor": {"@id": "https://cloudgridafrica.com/#localbusiness"},
   "url": "https://cloudgridafrica.com/#team",
   "sameAs": [
-    "https://www.linkedin.com/company/cloudgrid-africa",
-    "https://wa.me/254721656835"
+    "https://www.linkedin.com/company/cloudgrid-africa"
   ],
   "knowsAbout": [
     "Cloud Architecture", "AWS", "Microsoft Azure", "Google Cloud",
@@ -563,7 +563,7 @@
   <nav id="nav" aria-label="Primary navigation">
     <div class="nav-inner">
       <a href="#home" class="nav-logo" aria-label="CloudGrid Africa">
-        <div class="logo-mark"><picture><source type="image/webp" srcset="logo-44w.webp 1x, logo-88w.webp 2x"/><img src="logo.jpg" alt="CloudGrid Africa logo" width="44" height="44" loading="eager" fetchpriority="high" decoding="sync" onerror="window.cgaLogoFallback(this)"/></picture></div>
+        <div class="logo-mark"><picture><source type="image/webp" srcset="logo-44w.webp 1x, logo-88w.webp 2x"/><img src="/logo.jpg" alt="CloudGrid Africa logo" width="44" height="44" loading="eager" fetchpriority="high" decoding="sync" onerror="window.cgaLogoFallback(this)"/></picture></div>
         <div class="logo-wordmark"><span class="lw1">CloudGrid</span><span class="lw2">Africa</span></div>
       </a>
       <ul class="nav-links" role="list">
@@ -748,7 +748,7 @@
               <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
               LinkedIn
             </a>
-            <a href="https://wa.me/254721656835" class="tsoc-link" target="_blank" rel="nofollow noopener noreferrer" aria-label="WhatsApp">
+            <a href="#" class="tsoc-link wa-cta" data-wa-msg="" rel="nofollow noopener noreferrer" aria-label="WhatsApp">
               <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
               WhatsApp
             </a>
@@ -944,7 +944,7 @@
             </div>
           </div>
           <div class="tf-logo-wrap">
-            <picture><source type="image/webp" srcset="primedrive-imports-160w.webp 1x, primedrive-imports-320w.webp 2x"/><img src="primedrive-imports.jpg" alt="PrimeDrive Imports — Your Car, Sourced Right" width="130" height="82" loading="lazy" decoding="async"/></picture>
+            <picture><source type="image/webp" srcset="primedrive-imports-160w.webp 1x, primedrive-imports-320w.webp 2x"/><img src="/primedrive-imports.jpg" alt="PrimeDrive Imports — Your Car, Sourced Right" width="130" height="82" loading="lazy" decoding="async"/></picture>
             <p class="tf-caption">Your Car, Sourced Right.</p>
           </div>
         </div>
@@ -963,7 +963,7 @@
           <div class="tstars">★★★★★</div>
           <blockquote class="tq">CloudGrid Africa moved our entire infrastructure to a secure hybrid cloud. Reliability went from unpredictable to enterprise-grade — and our team finally has time for growth instead of firefighting outages.</blockquote>
           <div class="tmeta">
-            <picture><source type="image/webp" srcset="pinnoserv-ltd-44w.webp 1x, pinnoserv-ltd-88w.webp 2x"/><img class="tav" src="pinnoserv-ltd.jpg" alt="Pinnoserv LTD — Cloud migration and managed IT services client in Nairobi Kenya" width="44" height="44" loading="lazy" decoding="async"/></picture>
+            <picture><source type="image/webp" srcset="pinnoserv-ltd-44w.webp 1x, pinnoserv-ltd-88w.webp 2x"/><img class="tav" src="/pinnoserv-ltd.jpg" alt="Pinnoserv LTD — Cloud migration and managed IT services client in Nairobi Kenya" width="44" height="44" loading="lazy" decoding="async"/></picture>
             <div><p class="tname">Pinnoserv LTD</p><p class="trole">IT Director · Nairobi</p></div>
           </div>
         </div>
@@ -980,7 +980,7 @@
           <div class="tstars">★★★★★</div>
           <blockquote class="tq">Our custom booking platform and live analytics dashboard changed how we serve guests. Enquiry-to-booking time dropped by half, and we can see exactly how every safari package is performing, in real time.</blockquote>
           <div class="tmeta">
-            <picture><source type="image/webp" srcset="one-dance-safaris-44w.webp 1x, one-dance-safaris-88w.webp 2x"/><img class="tav" src="one-dance-safaris.jpg" alt="One Dance Safaris — Tourism digital transformation and booking platform client in Nairobi" width="44" height="44" loading="lazy" decoding="async"/></picture>
+            <picture><source type="image/webp" srcset="one-dance-safaris-44w.webp 1x, one-dance-safaris-88w.webp 2x"/><img class="tav" src="/one-dance-safaris.jpg" alt="One Dance Safaris — Tourism digital transformation and booking platform client in Nairobi" width="44" height="44" loading="lazy" decoding="async"/></picture>
             <div><p class="tname">One Dance Safaris</p><p class="trole">CEO · Nairobi</p></div>
           </div>
         </div>
@@ -997,7 +997,7 @@
           <div class="tstars">★★★★★</div>
           <blockquote class="tq">CloudGrid built our cybersecurity framework and AI inventory automation at the same time. Stock accuracy now sits at 97%. Eighteen months in: zero breaches, not one successful phishing attempt.</blockquote>
           <div class="tmeta">
-            <picture><source type="image/webp" srcset="cherie-africa-44w.webp 1x, cherie-africa-88w.webp 2x"/><img class="tav" src="cherie-africa.jpg" alt="Cherie Africa — Cybersecurity and AI automation client, retail sector Kenya" width="44" height="44" loading="lazy" decoding="async"/></picture>
+            <picture><source type="image/webp" srcset="cherie-africa-44w.webp 1x, cherie-africa-88w.webp 2x"/><img class="tav" src="/cherie-africa.jpg" alt="Cherie Africa — Cybersecurity and AI automation client, retail sector Kenya" width="44" height="44" loading="lazy" decoding="async"/></picture>
             <div><p class="tname">Cherie Africa</p><p class="trole">Operations Lead · Nairobi</p></div>
           </div>
         </div>
@@ -1014,7 +1014,7 @@
           <div class="tstars">★★★★★</div>
           <blockquote class="tq">We used to run 40 routes on WhatsApp groups and spreadsheets. Now we have a live fleet dashboard, driver apps, and automated route planning. Fuel waste dropped 22% in the first quarter alone.</blockquote>
           <div class="tmeta">
-            <picture><source type="image/webp" srcset="fayhope-express-44w.webp 1x, fayhope-express-88w.webp 2x"/><img class="tav" src="fayhope-express.jpg" alt="FayHope Express — Fleet management IoT and logistics app client in Mombasa Kenya" width="44" height="44" loading="lazy" decoding="async"/></picture>
+            <picture><source type="image/webp" srcset="fayhope-express-44w.webp 1x, fayhope-express-88w.webp 2x"/><img class="tav" src="/fayhope-express.jpg" alt="FayHope Express — Fleet management IoT and logistics app client in Mombasa Kenya" width="44" height="44" loading="lazy" decoding="async"/></picture>
             <div><p class="tname">FayHope Express</p><p class="trole">Logistics Manager · Mombasa</p></div>
           </div>
         </div>
@@ -1031,7 +1031,7 @@
           <div class="tstars">★★★★★</div>
           <blockquote class="tq">Every other vendor wanted to sell infrastructure first and worry about compliance later. CloudGrid mapped our requirements first, then built around them — ISO 27001, GDPR, and Kenya DPA compliance, all in one engagement.</blockquote>
           <div class="tmeta">
-            <picture><source type="image/webp" srcset="sca-44w.webp 1x, sca-88w.webp 2x"/><img class="tav" src="sca.jpg" alt="SCA — Public sector digital transformation and ISO 27001 compliance client Kenya" width="44" height="44" loading="lazy" decoding="async"/></picture>
+            <picture><source type="image/webp" srcset="sca-44w.webp 1x, sca-88w.webp 2x"/><img class="tav" src="/sca.jpg" alt="SCA — Public sector digital transformation and ISO 27001 compliance client Kenya" width="44" height="44" loading="lazy" decoding="async"/></picture>
             <div><p class="tname">SCA</p><p class="trole">Executive Director · Nairobi</p></div>
           </div>
         </div>
@@ -1048,7 +1048,7 @@
           <div class="tstars">★★★★★</div>
           <blockquote class="tq">CloudGrid digitised our entire supply chain, farm to shelf — cold-chain IoT sensors, live harvest tracking, and a buyer-facing traceability portal, all in one project. Wastage fell 35% in the first season.</blockquote>
           <div class="tmeta">
-            <picture><source type="image/webp" srcset="kayfarm-44w.webp 1x, kayfarm-88w.webp 2x"/><img class="tav" src="kayfarm.jpg" alt="KayFarm — AgriTech IoT supply chain traceability client in Nakuru Kenya" width="44" height="44" loading="lazy" decoding="async"/></picture>
+            <picture><source type="image/webp" srcset="kayfarm-44w.webp 1x, kayfarm-88w.webp 2x"/><img class="tav" src="/kayfarm.jpg" alt="KayFarm — AgriTech IoT supply chain traceability client in Nakuru Kenya" width="44" height="44" loading="lazy" decoding="async"/></picture>
             <div><p class="tname">KayFarm</p><p class="trole">Managing Director · Nakuru</p></div>
           </div>
         </div>
@@ -1065,7 +1065,7 @@
           <div class="tstars">★★★★★</div>
           <blockquote class="tq">In pharma, our digital infrastructure has zero margin for exposure. CloudGrid's audit found seven critical vulnerabilities our previous vendor missed entirely — two put patient data at risk. They didn't just report it; they fixed every finding, hardened our servers to OWASP standards, and cut load times by 62%. For the first time, we're genuinely confident in our security.</blockquote>
           <div class="tmeta">
-            <picture><source type="image/webp" srcset="ethereal-pharma-44w.webp 1x, ethereal-pharma-88w.webp 2x"/><img class="tav tav-white" src="ethereal-pharma.jpg" alt="Ethereal Pharma — Pharmaceutical web security audit and OWASP hardening client in Nairobi" width="44" height="44" loading="lazy" decoding="async"/></picture>
+            <picture><source type="image/webp" srcset="ethereal-pharma-44w.webp 1x, ethereal-pharma-88w.webp 2x"/><img class="tav tav-white" src="/ethereal-pharma.jpg" alt="Ethereal Pharma — Pharmaceutical web security audit and OWASP hardening client in Nairobi" width="44" height="44" loading="lazy" decoding="async"/></picture>
             <div>
               <p class="tname">Ethereal Pharma</p>
               <p class="trole">Chief Technology Officer · Nairobi</p>
@@ -1085,7 +1085,7 @@
           <div class="tstars">★★★★★</div>
           <blockquote class="tq">Spreadsheets and disconnected tools were costing us deals. CloudGrid built a full property management system — tenant onboarding, lease management, M-Pesa rent collection, and a landlord dashboard, all in one platform. Live on schedule, on budget. It's since processed KES 18M+ in transactions without a single incident, and it's now the backbone of our business.</blockquote>
           <div class="tmeta">
-            <picture><source type="image/webp" srcset="miiza-realtors-44w.webp 1x, miiza-realtors-88w.webp 2x"/><img class="tav tav-white" src="miiza-realtors.jpg" alt="Miiza Realtors — Property management system with M-Pesa integration client in Nairobi" width="44" height="44" loading="lazy" decoding="async"/></picture>
+            <picture><source type="image/webp" srcset="miiza-realtors-44w.webp 1x, miiza-realtors-88w.webp 2x"/><img class="tav tav-white" src="/miiza-realtors.jpg" alt="Miiza Realtors — Property management system with M-Pesa integration client in Nairobi" width="44" height="44" loading="lazy" decoding="async"/></picture>
             <div>
               <p class="tname">Miiza Realtors</p>
               <p class="trole">Managing Director · Nairobi</p>
@@ -1105,7 +1105,7 @@
           <div class="tstars">★★★★★</div>
           <blockquote class="tq">We were running our congregation on WhatsApp groups and paper registers — failing us every Sunday. CloudGrid built us a Church Management System: member profiles, attendance, tithe records with M-Pesa reconciliation, and event coordination, all in one secure platform. Simple enough for volunteers, secure enough for sensitive data. They understood that ministry technology has to be powerful and human at once.</blockquote>
           <div class="tmeta">
-            <picture><source type="image/webp" srcset="rog-church-44w.webp 1x, rog-church-88w.webp 2x"/><img class="tav tav-white" src="rog-church.jpg" alt="The River of God Church — Church management system ChMS client in Nairobi Kenya" width="44" height="44" loading="lazy" decoding="async"/></picture>
+            <picture><source type="image/webp" srcset="rog-church-44w.webp 1x, rog-church-88w.webp 2x"/><img class="tav tav-white" src="/rog-church.jpg" alt="The River of God Church — Church management system ChMS client in Nairobi Kenya" width="44" height="44" loading="lazy" decoding="async"/></picture>
             <div>
               <p class="tname">The River of God Church</p>
               <p class="trole">Senior Pastor &amp; Board · Nairobi</p>
@@ -1126,7 +1126,7 @@
           <div class="tstars">★★★★★</div>
           <blockquote class="tq">We had no digital infrastructure — everything was done by hand. CloudGrid delivered a ministry website and a management system that's freed our leadership to focus on what matters. Tithes, attendance, member care, events — all visible in one place. It understands ministry, not just software.</blockquote>
           <div class="tmeta">
-            <picture><source type="image/webp" srcset="bethesda-prayer-ministry-44w.webp 1x, bethesda-prayer-ministry-88w.webp 2x"/><img class="tav tav-white" src="bethesda-prayer-ministry.jpg" alt="The Bethesda Prayer Ministry — Ministry website and ChMIS client in Nairobi Kenya" width="44" height="44" loading="lazy" decoding="async"/></picture>
+            <picture><source type="image/webp" srcset="bethesda-prayer-ministry-44w.webp 1x, bethesda-prayer-ministry-88w.webp 2x"/><img class="tav tav-white" src="/bethesda-prayer-ministry.jpg" alt="The Bethesda Prayer Ministry — Ministry website and ChMIS client in Nairobi Kenya" width="44" height="44" loading="lazy" decoding="async"/></picture>
             <div>
               <p class="tname">The Bethesda Prayer Ministry</p>
               <p class="trole">Senior Pastor · Nairobi</p>
@@ -1146,7 +1146,7 @@
           <div class="tstars">★★★★★</div>
           <blockquote class="tq">In interior design, your website is your first portfolio piece. CloudGrid understood that from day one — a refined, curated site, plus a client app for tracking timelines, mood boards, and procurement in real time. International enquiries have grown noticeably since launch. They didn't build us a website; they built us a showroom.</blockquote>
           <div class="tmeta">
-            <picture><source type="image/webp" srcset="yaara-design-studio-44w.webp 1x, yaara-design-studio-88w.webp 2x"/><img class="tav tav-white" src="yaara-design-studio.jpg" alt="Yaara Design Studio — Luxury interior design website and client app in Nairobi Kenya" width="44" height="44" loading="lazy" decoding="async"/></picture>
+            <picture><source type="image/webp" srcset="yaara-design-studio-44w.webp 1x, yaara-design-studio-88w.webp 2x"/><img class="tav tav-white" src="/yaara-design-studio.jpg" alt="Yaara Design Studio — Luxury interior design website and client app in Nairobi Kenya" width="44" height="44" loading="lazy" decoding="async"/></picture>
             <div>
               <p class="tname">Yaara Design Studio</p>
               <p class="trole">Creative Director · Nairobi</p>
@@ -1166,7 +1166,7 @@
           <div class="tstars">★★★★★</div>
           <blockquote class="tq">Staffing a specialist hospital isn't a simple HR problem — rosters, credentialing, payroll, and compliance all carry patient safety implications. CloudGrid built us an HRMS detailed enough for clinical governance, yet simple enough that department heads adopted it without resistance. Payroll dropped from three days to four hours — time that now goes back into patient care.</blockquote>
           <div class="tmeta">
-            <picture><source type="image/webp" srcset="bixa-hospital-44w.webp 1x, bixa-hospital-88w.webp 2x"/><img class="tav tav-white" src="bixa-hospital.jpg" alt="BIXA Medical and Surgical Specialist Hospital — HRMS payroll automation client Nairobi" width="44" height="44" loading="lazy" decoding="async"/></picture>
+            <picture><source type="image/webp" srcset="bixa-hospital-44w.webp 1x, bixa-hospital-88w.webp 2x"/><img class="tav tav-white" src="/bixa-hospital.jpg" alt="BIXA Medical and Surgical Specialist Hospital — HRMS payroll automation client Nairobi" width="44" height="44" loading="lazy" decoding="async"/></picture>
             <div>
               <p class="tname">BIXA Medical &amp; Surgical Specialist Hospital</p>
               <p class="trole">Hospital Administrator · Machakos Road, Nairobi</p>
@@ -1290,7 +1290,7 @@
       <div class="fi"><button class="fb" aria-expanded="false" aria-controls="fa3">Which compliance standards do you cover?<span class="farr" aria-hidden="true">▾</span></button><div class="fbody" id="fa3" hidden><p>We cover GDPR, ISO 27001, the Kenya Data Protection Act (2019), SOC 2, PCI-DSS, and various sector-specific frameworks. Our team maps your requirements during the consulting phase.</p></div></div>
       <div class="fi"><button class="fb" aria-expanded="false" aria-controls="fa4">What is AEO and GEO, and does CloudGrid Africa offer it?<span class="farr" aria-hidden="true">▾</span></button><div class="fbody" id="fa4" hidden><p>AEO stands for Answer Engine Optimisation. It helps AI tools like ChatGPT and Gemini mention your business when people ask questions in your industry. GEO (Generative Engine Optimisation) does the same thing for your specific region. We build both into every website we make. PrimeDrive Imports is a good example: leads tripled in 90 days, and AI assistants now mention them regularly.</p></div></div>
       <div class="fi"><button class="fb" aria-expanded="false" aria-controls="fa5">How long does a typical cloud migration take?<span class="farr" aria-hidden="true">▾</span></button><div class="fbody" id="fa5" hidden><p>Timelines depend on workload complexity. A small business migration may take 4–8 weeks; a large enterprise multi-cloud migration can take 3–9 months. We always begin with a discovery and assessment phase to provide an accurate timeline and estimate.</p></div></div>
-      <div class="fi"><button class="fb" aria-expanded="false" aria-controls="fa6">How do I get started with CloudGrid Africa?<span class="farr" aria-hidden="true">▾</span></button><div class="fbody" id="fa6" hidden><p>Fill out the quote form below, call us on +254 721 656 835, or reach us on WhatsApp. We will schedule a complimentary 30-minute discovery call within 24 hours to understand your needs and recommend the best path forward.</p></div></div>
+      <div class="fi"><button class="fb" aria-expanded="false" aria-controls="fa6">How do I get started with CloudGrid Africa?<span class="farr" aria-hidden="true">▾</span></button><div class="fbody" id="fa6" hidden><p>Fill out the quote form below, <a href="#" class="tel-cta">call us</a>, or <a href="#" class="wa-cta" data-wa-msg="">reach us on WhatsApp</a>. We will schedule a complimentary 30-minute discovery call within 24 hours to understand your needs and recommend the best path forward.</p></div></div>
 
       <div class="fi"><button class="fb" aria-expanded="false" aria-controls="fa7">Does CloudGrid Africa offer services outside of Nairobi?<span class="farr" aria-hidden="true">▾</span></button><div class="fbody" id="fa7" hidden><p>Yes. While CloudGrid Africa is headquartered in Westlands, Nairobi, we deliver managed cloud, cybersecurity, and digital transformation services to clients across Kenya — including Mombasa, Nakuru, Kisumu and Eldoret — as well as across East Africa including Uganda, Tanzania and Ethiopia. All managed services are delivered remotely with on-site visits as required.</p></div></div>
 
@@ -1407,7 +1407,7 @@
               <div class="booking-sub">Book a free 30-minute discovery call. No sales pitch — just an honest conversation about your infrastructure challenges and how we can help.</div>
             </div>
           </div>
-          <a href="https://wa.me/254721656835?text=Hi%20Denis%2C%20I'd%20like%20to%20book%20a%2030-minute%20discovery%20call%20with%20CloudGrid%20Africa." class="booking-btn" target="_blank" rel="nofollow noopener noreferrer">
+          <a href="#" class="booking-btn wa-cta" data-wa-msg="Hi Denis, I'd like to book a 30-minute discovery call with CloudGrid Africa." rel="nofollow noopener noreferrer">
             📞 Book a Discovery Call
           </a>
         </div>
@@ -1419,8 +1419,8 @@
       <div class="reveal">
         <ul class="clist" role="list">
           <li class="crow"><div class="cico">✉️</div><div><div class="clbl">Email</div><a href="#" class="email-link" data-e="aW5mb0BjbG91ZGdyaWRhZnJpY2EuY29t"><span class="email-text">info@cloudgridafrica.com</span></a></div></li>
-          <li class="crow"><div class="cico">📞</div><div><div class="clbl">Phone</div><a href="tel:+254721656835">+254 721 656 835</a></div></li>
-          <li class="crow"><div class="cico">💬</div><div><div class="clbl">WhatsApp</div><a href="https://wa.me/254721656835?text=Hello%20CloudGrid%20Africa" target="_blank" rel="nofollow noopener noreferrer">Chat on WhatsApp →</a></div></li>
+          <li class="crow"><div class="cico">📞</div><div><div class="clbl">Phone</div><a href="#" class="tel-cta">Show phone number</a></div></li>
+          <li class="crow"><div class="cico">💬</div><div><div class="clbl">WhatsApp</div><a href="#" class="wa-cta" data-wa-msg="Hello CloudGrid Africa" rel="nofollow noopener noreferrer">Chat on WhatsApp →</a></div></li>
           <li class="crow"><div class="cico">📍</div><div><div class="clbl">Physical Address</div><address class="vcard-address">Westlands Business District<br/>Nairobi, 00800<br/>Kenya</address></div></li>
         </ul>
         <div class="resp-time-wrap">
@@ -1476,7 +1476,7 @@
   <div class="container">
     <div class="fgrid">
       <div>
-        <div class="flogo"><div class="flogo-mark"><picture><source type="image/webp" srcset="logo-44w.webp 1x, logo-88w.webp 2x"/><img src="logo.jpg" alt="CloudGrid Africa Logo" width="40" height="40" loading="lazy" decoding="async" onerror="window.cgaLogoFallback(this)"/></picture></div><div><div class="fwm1">CloudGrid</div><div class="fwm2">Africa</div></div></div>
+        <div class="flogo"><div class="flogo-mark"><picture><source type="image/webp" srcset="logo-44w.webp 1x, logo-88w.webp 2x"/><img src="/logo.jpg" alt="CloudGrid Africa Logo" width="40" height="40" loading="lazy" decoding="async" onerror="window.cgaLogoFallback(this)"/></picture></div><div><div class="fwm1">CloudGrid</div><div class="fwm2">Africa</div></div></div>
         <p class="fdesc">Engineering Africa's digital future — one resilient, scalable, secure infrastructure at a time.</p>
         <ul class="fsoc" aria-label="Social media links">
           <a class="sobn sobn-li" href="https://www.linkedin.com/company/cloudgrid-africa" aria-label="Follow CloudGrid Africa on LinkedIn" rel="nofollow noopener noreferrer" target="_blank" title="LinkedIn">
@@ -1488,20 +1488,20 @@
           <a class="sobn sobn-x" href="https://twitter.com/cloudgridafrica" aria-label="Follow CloudGrid Africa on X (Twitter)" rel="nofollow noopener noreferrer" target="_blank" title="X / Twitter">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.74l7.73-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
           </a>
-          <a class="sobn sobn-wa" href="https://wa.me/254721656835" aria-label="Message CloudGrid Africa on WhatsApp" target="_blank" rel="nofollow noopener noreferrer" title="WhatsApp">
+          <a class="sobn sobn-wa wa-cta" data-wa-msg="" href="#" aria-label="Message CloudGrid Africa on WhatsApp" rel="nofollow noopener noreferrer" title="WhatsApp">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
           </a>
         </ul>
       </div>
       <nav aria-label="Services links"><h3 class="fch">Services</h3><ul class="fls"><li><a href="#services">Cloud Engineering</a></li><li><a href="#services">Cybersecurity</a></li><li><a href="#services">AI &amp; Automation</a></li><li><a href="#services">Digital Transformation</a></li><li><a href="#services">Data &amp; Visualisation</a></li><li><a href="#services">Custom Applications</a></li><li><a href="#services">Data Protection &amp; Privacy</a></li><li><a href="#services">IT Consultancy</a></li></ul></nav>
-      <nav aria-label="Company links"><h3 class="fch">Company</h3><ul class="fls"><li><a href="#about">About CloudGrid Africa</a></li><li><a href="#howwe">How We Deliver</a></li><li><a href="#testimonials">Client Success Stories</a></li><li><a href="#faq">Cloud &amp; Security FAQ</a></li><li><a href="/blog/">Tech Blog</a></li><li><a href="#quote">Get a Free Consultation</a></li><li><a href="#testimonials">Kenya Cloud Case Studies</a></li></ul></nav>
-      <div><h3 class="fch">Contact</h3><ul class="fls"><li><a href="#" class="email-link" data-e="aW5mb0BjbG91ZGdyaWRhZnJpY2EuY29t">✉️ <span class="email-text">info@cloudgridafrica.com</span></a></li><li><a href="tel:+254721656835">📞 +254 721 656 835</a></li><li><a href="https://wa.me/254721656835" target="_blank" rel="nofollow noopener noreferrer">💬 WhatsApp Chat</a></li><li class="ffoot-loc"><address class="ffoot-addr">📍 Westlands Business District, Nairobi 00800, Kenya</address></li></ul></div>
+      <nav aria-label="Company links"><h3 class="fch">Company</h3><ul class="fls"><li><a href="#about">About CloudGrid Africa</a></li><li><a href="#howwe">How We Deliver</a></li><li><a href="#testimonials">Client Success Stories</a></li><li><a href="#faq">Cloud &amp; Security FAQ</a></li><li><a href="/blog/">Tech Blog</a></li><li><a href="#quote">Get a Free Consultation</a></li><li><a href="https://www.pwc.com/ke/en/publications/kenya-cloud-at-the-crossroads-from-momentum-to-maturity-2026-outlook.html" target="_blank" rel="noopener noreferrer">Kenya Cloud Market Report (PwC)</a></li></ul></nav>
+      <div><h3 class="fch">Contact</h3><ul class="fls"><li><a href="#" class="email-link" data-e="aW5mb0BjbG91ZGdyaWRhZnJpY2EuY29t">✉️ <span class="email-text">info@cloudgridafrica.com</span></a></li><li><a href="#" class="tel-cta">📞 Show phone number</a></li><li><a href="#" class="wa-cta" data-wa-msg="" rel="nofollow noopener noreferrer">💬 WhatsApp Chat</a></li><li class="ffoot-loc"><address class="ffoot-addr">📍 Westlands Business District, Nairobi 00800, Kenya</address></li></ul></div>
     </div>
     <div class="fbot"><p>© <span id="yr">2025</span> CloudGrid Africa — Engineering Africa's Digital Future</p><ul class="flegal"><li><a href="#privacy-policy">Privacy Policy</a></li><li><a href="#terms-of-service">Terms of Service</a></li><li><a href="#cookie-policy">Cookie Policy</a></li><li><a href="#editorial-policy">Editorial Policy</a></li></ul></div>
   </div>
 </footer>
 
-<a class="wa-float" href="https://wa.me/254721656835?text=Hello%20CloudGrid%20Africa%2C%20I'd%20like%20to%20inquire%20about%20your%20services." target="_blank" rel="nofollow noopener noreferrer" aria-label="Chat on WhatsApp"><span aria-hidden="true">💬</span><span class="wa-tip">Chat on WhatsApp</span></a>
+<a class="wa-float wa-cta" data-wa-msg="Hello CloudGrid Africa, I'd like to inquire about your services." href="#" rel="nofollow noopener noreferrer" aria-label="Chat on WhatsApp"><span aria-hidden="true">💬</span><span class="wa-tip">Chat on WhatsApp</span></a>
 <button class="live-chat" id="liveChatBtn" aria-label="Live support"><span class="cdot" aria-hidden="true"></span>Live Support</button>
 <div class="cbanner" id="cbanner" role="dialog" aria-label="Cookie consent"><p class="ctext">We use cookies to improve your experience. <a href="#cookie-policy" class="cookie-learn">Read our cookie policy</a>.</p><div class="cacts"><button class="cdec" id="cdec">Decline</button><button class="cacc" id="cacc">Accept All</button></div></div>
 
@@ -1909,6 +1909,11 @@ if(nOk) { nOk.hidden = false; }
 }).catch(function() {
 if(nOk) { nOk.hidden = false; }
 });
+fetch('/.netlify/functions/subscribe-newsletter', {
+method:'POST',
+headers:{'Content-Type':'application/json'},
+body: JSON.stringify({email: emailVal.value})
+}).catch(function(){});
 });
 }
 } catch(e){}
@@ -2036,6 +2041,13 @@ if(lmSuccess) lmSuccess.hidden = false;
 if(lmForm) lmForm.hidden = true;
 if(lmSuccess) lmSuccess.hidden = false;
 });
+var lmName = lmForm.querySelector('[name="name"]');
+var lmEmail = lmForm.querySelector('[name="email"]');
+fetch('/.netlify/functions/send-checklist', {
+method: 'POST',
+headers: {'Content-Type': 'application/json'},
+body: JSON.stringify({name: lmName ? lmName.value : '', email: lmEmail ? lmEmail.value : ''})
+}).catch(function(){});
 });
 }
 } catch(e){}
@@ -2091,6 +2103,49 @@ m.hidden=true;document.body.style.overflow='';
 });
 }
 });
+} catch(e){}
+try {
+// Phone/WhatsApp click-to-reveal: the number lives only in
+// /.netlify/functions/contact-info, fetched on demand. This is
+// stronger than the email's data-e base64 pattern above — that
+// value sits in the page source either way and just needs atob();
+// this value is never in the HTML/JS at all until a real click happens.
+var _cgaContact=null,_cgaContactPromise=null;
+function cgaGetContact(){
+  if(_cgaContact)return Promise.resolve(_cgaContact);
+  if(_cgaContactPromise)return _cgaContactPromise;
+  _cgaContactPromise=fetch('/.netlify/functions/contact-info').then(function(r){return r.json();}).then(function(d){_cgaContact=d;return d;});
+  return _cgaContactPromise;
+}
+document.querySelectorAll('.tel-cta').forEach(function(el){
+  el.addEventListener('click',function(ev){
+    ev.preventDefault();
+    cgaGetContact().then(function(c){
+      el.href='tel:'+c.tel;
+      el.textContent=(el.textContent.indexOf('📞')===0?'📞 ':'')+c.display;
+      el.dataset.revealed='1';
+      window.location.href='tel:'+c.tel;
+    });
+  });
+});
+document.querySelectorAll('.wa-cta').forEach(function(el){
+  el.setAttribute('target','_blank');
+  el.addEventListener('click',function(ev){
+    ev.preventDefault();
+    cgaGetContact().then(function(c){
+      var msg=el.getAttribute('data-wa-msg')||'';
+      var url=c.whatsapp+(msg?('?text='+encodeURIComponent(msg)):'');
+      window.open(url,'_blank','noopener,noreferrer');
+    });
+  });
+});
+} catch(e){}
+try {
+if('serviceWorker' in navigator){
+  window.addEventListener('load',function(){
+    navigator.serviceWorker.register('/sw.js').catch(function(){});
+  });
+}
 } catch(e){}
 }); /* end DOMContentLoaded */</script>
 

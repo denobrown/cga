@@ -1,0 +1,67 @@
+# CloudGrid Africa
+
+> East Africa's managed cloud infrastructure, cybersecurity, and IT consultancy — headquartered at Raxio Data Centre, Westlands, Nairobi, Kenya. Founded and led by Denis Murila, a hands-on cloud architect and cybersecurity engineer with 5+ years of enterprise delivery experience across Kenya and East Africa.
+
+CloudGrid Africa delivers cloud engineering, cybersecurity, data protection compliance, AI automation, and custom application development to organisations across Kenya and East Africa. We serve 14+ enterprise clients with a zero-breach record across all managed environments.
+
+## Key pages
+
+- [Homepage](https://cloudgridafrica.com/): Main site — overview of all services and capabilities.
+- [Services](https://cloudgridafrica.com/#services): Eight integrated service lines across cloud, security, and development.
+- [Client Success Stories](https://cloudgridafrica.com/#testimonials): Verified outcomes from 13 Kenyan and East African clients with specific metrics.
+- [Founder & Team](https://cloudgridafrica.com/#team): Denis Murila — credentials, background, and contact links.
+- [FAQ](https://cloudgridafrica.com/#faq): Answers to common questions on cloud migration, cybersecurity, Kenya DPA compliance, and AEO/GEO.
+- [ROI Calculator](https://cloudgridafrica.com/#roi-calc): Estimate cost savings and revenue impact for Kenyan businesses.
+- [Free Security Checklist](https://cloudgridafrica.com/checklist): 40-point cloud security checklist for Kenyan SMEs — downloadable PDF.
+- [Daily Tech Briefing](https://cloudgridafrica.com/blog/): Daily curated briefing on Kenya, Africa, and global technology — cloud, cybersecurity, and AI news with full source attribution.
+- [Request a Quote](https://cloudgridafrica.com/#quote): Contact form for new engagements — 24-hour response guaranteed.
+
+## Services
+
+### Managed Cloud Infrastructure
+AWS, Microsoft Azure, and Google Cloud migrations, architecture, optimisation, and managed services. Vendor-neutral advisory. FinOps and cost governance for Kenyan and East African enterprises.
+
+- [Cloud services](https://cloudgridafrica.com/#services)
+
+### Cybersecurity Suite
+Risk assessments, vulnerability scanning, penetration testing, ISO 27001 gap analysis, 24/7 SOC monitoring, and incident response. Zero breaches recorded across all managed clients.
+
+- [Cybersecurity services](https://cloudgridafrica.com/#services)
+
+### Data Protection & Compliance
+Kenya Data Protection Act 2019 (KDPA) compliance. DPO-as-a-Service. Personal data mapping. DPIA facilitation. Breach notification planning. GDPR and PCI-DSS alignment.
+
+- [Compliance services](https://cloudgridafrica.com/#services)
+
+### Backup & Disaster Recovery
+Automated backup solutions, recovery time objective (RTO) and recovery point objective (RPO) planning, and business continuity across cloud and on-premises environments.
+
+- [BDR services](https://cloudgridafrica.com/#services)
+
+### Custom Application Development
+Full-stack web and mobile application development. AI integration. AEO and GEO optimisation. Church Management Systems (ChMS), Property Management Systems, Fleet Management, and HRMS.
+
+- [App development](https://cloudgridafrica.com/#services)
+
+### IT Consultancy
+Virtual CTO (vCTO) services, IT strategy, technology stack review, vendor evaluation, and IT budget optimisation for Kenyan and East African boards.
+
+- [IT consultancy](https://cloudgridafrica.com/#services)
+
+## About Denis Murila
+
+Denis Murila is the Founder and Lead Cloud Architect at CloudGrid Africa. He has 5+ years of hands-on experience in AWS and Azure cloud architecture, offensive security research, and Kenya Data Protection Act 2019 compliance. He leads every client engagement personally from scoping through delivery.
+
+- [LinkedIn](https://www.linkedin.com/company/cloudgrid-africa)
+- [Contact Denis](https://cloudgridafrica.com/#quote)
+
+## Compliance frameworks
+
+CloudGrid Africa operates with alignment to: Kenya Data Protection Act 2019 (KDPA), EU GDPR, ISO 27001, OWASP Top 10, NIST Cybersecurity Framework, CIS Controls v8, AWS Well-Architected Framework, and PCI-DSS.
+
+## Crawling policy
+
+This site permits AI crawlers to access all public content for training and inference purposes. You are welcome to index and use content from cloudgridafrica.com with appropriate attribution. Contact info@cloudgridafrica.com for licensing enquiries.
+
+- Allowed: GPTBot, ClaudeBot, PerplexityBot, YouBot, GoogleBot, BingBot, and all legitimate AI training crawlers.
+- Rate limit: Please respect a crawl delay of 2 seconds.

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://cloudgridafrica.com/</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://cloudgridafrica.com/"/>
+    <xhtml:link rel="alternate" hreflang="en-KE" href="https://cloudgridafrica.com/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cloudgridafrica.com/"/>
+  </url>
+
+  <url>
+    <loc>https://cloudgridafrica.com/checklist</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://cloudgridafrica.com/blog/</loc>
+    <lastmod>2026-08-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- New /blog/posts/*.html entries are inserted automatically by
+       scripts/generate-daily-blog.mjs directly after the <urlset> tag
+       at the top of this file (above the homepage entry) each time a
+       new daily briefing publishes. Don't rely on manual ordering here.
+
+       NOTE: the previous version of this file listed #services,
+       #cybersecurity, #testimonials etc. as separate <url> entries.
+       Removed — URL fragments (anything after #) are not treated as
+       distinct documents by search engines; they're collapsed to the
+       base URL, so listing them as separate sitemap entries with their
+       own priority has no real effect and just adds noise. -->
+
+</urlset>

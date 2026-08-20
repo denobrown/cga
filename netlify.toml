@@ -35,6 +35,16 @@
   status = 200
   force  = false
 
+# The homepage's checklist download button links to /checklist (no
+# extension, promised in the lead-magnet copy and llms.txt). Maps it
+# to the actual PDF file. Also above the catch-all for the same reason
+# as /blog/* above.
+[[redirects]]
+  from   = "/checklist"
+  to     = "/assets/downloads/cloudgrid-africa-security-checklist.pdf"
+  status = 200
+  force  = true
+
 [[redirects]]
   from   = "/*"
   to     = "/index.html"
@@ -66,7 +76,7 @@
     # directly). Unused CSP allowances only widen the exfil surface if a
     # future XSS is ever introduced — remove entries as soon as code stops
     # using them, not just when adding new ones.
-    Content-Security-Policy = "default-src 'self'; script-src 'self' 'sha256-2YdQW6S1/WtIlQBNcBzEFUeCpl9eLTp707ZrTwNxZic=' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: blob: https:; connect-src 'self' https://www.google-analytics.com https://api.open-meteo.com https://news.google.com; media-src 'none'; object-src 'none'; frame-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests;"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'sha256-e9nKBJHGSTidN6N6Laz+34h7IpbU0dvTk+p6DColN7A=' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: blob: https:; connect-src 'self' https://www.google-analytics.com https://api.open-meteo.com https://news.google.com; manifest-src 'self'; worker-src 'self'; media-src 'none'; object-src 'none'; frame-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests;"
 
     # ── 2. X-Frame-Options (HTTP header only — never in <meta>) ──
     X-Frame-Options = "DENY"
@@ -108,6 +118,22 @@
   for = "/*.js"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+    X-Content-Type-Options = "nosniff"
+
+# Service workers must never be long/immutably cached — browsers need to
+# re-fetch this file to detect updates, and an immutable cache header
+# actively fights that. This rule is more specific than "/*.js" above
+# and takes precedence for this one path.
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache"
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/manifest.json"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
     X-Content-Type-Options = "nosniff"
 
 [[headers]]
