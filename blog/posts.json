@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-08-22",
+      "title": "Daily Tech Briefing — 22 August 2026",
+      "dateISO": "2026-08-22T05:30:40.419Z",
+      "dateHuman": "22 August 2026",
+      "excerpt": "Google Gemini is available in Nigeria, and you do not need to pay for a Google AI subscription to start using many of its most useful features.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-08-21",
       "title": "Daily Tech Briefing — 21 August 2026",
       "dateISO": "2026-08-21T05:35:28.708Z",
