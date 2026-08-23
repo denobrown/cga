@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-08-23",
+      "title": "Daily Tech Briefing — 23 August 2026",
+      "dateISO": "2026-08-23T05:31:57.949Z",
+      "dateHuman": "23 August 2026",
+      "excerpt": "Samsung says the event will bring the core Galaxy S26 experience, from camera to AI, to a wider audience.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-08-22",
       "title": "Daily Tech Briefing — 22 August 2026",
       "dateISO": "2026-08-22T05:30:40.419Z",
