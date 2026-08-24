@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-08-24",
+      "title": "Daily Tech Briefing — 24 August 2026",
+      "dateISO": "2026-08-24T05:40:23.551Z",
+      "dateHuman": "24 August 2026",
+      "excerpt": "The hunger is not entirely gone from Kenya, but it will only return when the market stops paying founders to ignore it.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-08-23",
       "title": "Daily Tech Briefing — 23 August 2026",
       "dateISO": "2026-08-23T05:31:57.949Z",
