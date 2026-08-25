@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-08-25",
+      "title": "Daily Tech Briefing — 25 August 2026",
+      "dateISO": "2026-08-25T05:34:17.639Z",
+      "dateHuman": "25 August 2026",
+      "excerpt": "MTN Group expects its Nigerian business to regain momentum in the second half of 2026 after airtime lending resumed after a regulatory suspension in April.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-08-24",
       "title": "Daily Tech Briefing — 24 August 2026",
       "dateISO": "2026-08-24T05:40:23.551Z",
