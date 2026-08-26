@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-08-26",
+      "title": "Daily Tech Briefing — 26 August 2026",
+      "dateISO": "2026-08-26T05:37:07.369Z",
+      "dateHuman": "26 August 2026",
+      "excerpt": "In today's edition: Moniepoint is phasing out remittance product &#124;&#124; Courier platforms must submit data in Kenya &#124;&#124; MTN targets 30 million fintech users in Nigeria &#124;&#124; Nigeria is getting tw…",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-08-25",
       "title": "Daily Tech Briefing — 25 August 2026",
       "dateISO": "2026-08-25T05:34:17.639Z",
