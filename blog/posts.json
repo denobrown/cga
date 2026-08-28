@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-08-28",
+      "title": "Daily Tech Briefing — 28 August 2026",
+      "dateISO": "2026-08-28T17:12:20.988Z",
+      "dateHuman": "28 August 2026",
+      "excerpt": "The TechBBQ event in Copenhagen, Denmark, set the stage for important conversations in the country's tech ecosystem.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-08-27",
       "title": "Daily Tech Briefing — 27 August 2026",
       "dateISO": "2026-08-27T16:14:30.162Z",
