@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-08-30",
+      "title": "Daily Tech Briefing — 30 August 2026",
+      "dateISO": "2026-08-30T10:22:06.707Z",
+      "dateHuman": "30 August 2026",
+      "excerpt": "French aerospace company Thales Alenia Space and Israel Aerospace Industries (IAI) have been selected to build Nigeria’s next communications satellites",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-08-29",
       "title": "Daily Tech Briefing — 29 August 2026",
       "dateISO": "2026-08-29T11:30:41.402Z",
