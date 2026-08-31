@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-08-31",
+      "title": "Daily Tech Briefing — 31 August 2026",
+      "dateISO": "2026-08-31T11:27:07.863Z",
+      "dateHuman": "31 August 2026",
+      "excerpt": "The rules are aimed at strengthening investor protection and reducing the risk that customers lose access to their assets when a digital asset company fails.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-08-30",
       "title": "Daily Tech Briefing — 30 August 2026",
       "dateISO": "2026-08-30T10:22:06.707Z",
