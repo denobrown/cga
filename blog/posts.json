@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-09-01",
+      "title": "Daily Tech Briefing — 1 September 2026",
+      "dateISO": "2026-09-01T09:49:47.882Z",
+      "dateHuman": "1 September 2026",
+      "excerpt": "In today's edition: CBK approves Nedbank-NCBA deal &#124;&#124; Nigerian fintech Allawee folds into Paystack &#124;&#124; Yele Bademosi transitions to chairman at Onboard &#124;&#124; Namibia launches DigiNam, a digit…",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-08-31",
       "title": "Daily Tech Briefing — 31 August 2026",
       "dateISO": "2026-08-31T11:27:07.863Z",
