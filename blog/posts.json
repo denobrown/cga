@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-09-02",
+      "title": "Daily Tech Briefing — 2 September 2026",
+      "dateISO": "2026-09-02T09:21:57.424Z",
+      "dateHuman": "2 September 2026",
+      "excerpt": "This marks Cascador’s latest effort to build a pipeline of Nigerian businesses ready to scale but still require capital and leadership support.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-09-01",
       "title": "Daily Tech Briefing — 1 September 2026",
       "dateISO": "2026-09-01T09:49:47.882Z",
