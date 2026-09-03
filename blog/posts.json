@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-09-03",
+      "title": "Daily Tech Briefing — 3 September 2026",
+      "dateISO": "2026-09-03T09:31:17.478Z",
+      "dateHuman": "3 September 2026",
+      "excerpt": "The partnership comes as Nigeria's stock market continues its surge.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-09-02",
       "title": "Daily Tech Briefing — 2 September 2026",
       "dateISO": "2026-09-02T09:21:57.424Z",
