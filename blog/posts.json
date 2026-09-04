@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-09-04",
+      "title": "Daily Tech Briefing — 4 September 2026",
+      "dateISO": "2026-09-04T09:23:36.305Z",
+      "dateHuman": "4 September 2026",
+      "excerpt": "The company says its AI transformation is built around four pillars: data, process, training and change.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-09-03",
       "title": "Daily Tech Briefing — 3 September 2026",
       "dateISO": "2026-09-03T09:31:17.478Z",
