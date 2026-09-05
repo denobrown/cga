@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-09-05",
+      "title": "Daily Tech Briefing — 5 September 2026",
+      "dateISO": "2026-09-05T08:52:28.046Z",
+      "dateHuman": "5 September 2026",
+      "excerpt": "Africa spent a decade teaching Uber how on-demand mobility works in a cash economy on unmapped roads.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-09-04",
       "title": "Daily Tech Briefing — 4 September 2026",
       "dateISO": "2026-09-04T09:23:36.305Z",
