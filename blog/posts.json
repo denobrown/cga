@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-09-06",
+      "title": "Daily Tech Briefing — 6 September 2026",
+      "dateISO": "2026-09-06T09:12:47.938Z",
+      "dateHuman": "6 September 2026",
+      "excerpt": "Uber spent 12 years in Nigeria and decided to leave because the market it operated in could not deliver the economies of scale required to support its future ambitions.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-09-05",
       "title": "Daily Tech Briefing — 5 September 2026",
       "dateISO": "2026-09-05T08:52:28.046Z",
