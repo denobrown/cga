@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-09-07",
+      "title": "Daily Tech Briefing — 7 September 2026",
+      "dateISO": "2026-09-07T10:00:52.629Z",
+      "dateHuman": "7 September 2026",
+      "excerpt": "African startups hit $2.10 billion in 8 months.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-09-06",
       "title": "Daily Tech Briefing — 6 September 2026",
       "dateISO": "2026-09-06T09:12:47.938Z",
