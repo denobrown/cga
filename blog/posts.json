@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-09-08",
+      "title": "Daily Tech Briefing — 8 September 2026",
+      "dateISO": "2026-09-08T09:26:03.339Z",
+      "dateHuman": "8 September 2026",
+      "excerpt": "On Techpoint Digest, we talk about Airtel's 25-year licence that has yet to be approved in Kenya, why Nigeria is investigating Uber, how big tech is facing an ICASA investigation, and how DStv Premium is losing ground…",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-09-07",
       "title": "Daily Tech Briefing — 7 September 2026",
       "dateISO": "2026-09-07T10:00:52.629Z",
