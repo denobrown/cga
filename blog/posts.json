@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-09-09",
+      "title": "Daily Tech Briefing — 9 September 2026",
+      "dateISO": "2026-09-09T09:27:25.524Z",
+      "dateHuman": "9 September 2026",
+      "excerpt": "Africa’s AI opportunity may lie beyond chatbots, with AI transforming mining, business processes and other industries that power its economy.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-09-08",
       "title": "Daily Tech Briefing — 8 September 2026",
       "dateISO": "2026-09-08T09:26:03.339Z",
