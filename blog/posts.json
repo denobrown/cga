@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-09-10",
+      "title": "Daily Tech Briefing — 10 September 2026",
+      "dateISO": "2026-09-10T09:26:25.661Z",
+      "dateHuman": "10 September 2026",
+      "excerpt": "As Cohort 36 begins on November 9, 2026, the Lagos-based...",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-09-09",
       "title": "Daily Tech Briefing — 9 September 2026",
       "dateISO": "2026-09-09T09:27:25.524Z",
