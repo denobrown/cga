@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-09-11",
+      "title": "Daily Tech Briefing — 11 September 2026",
+      "dateISO": "2026-09-11T09:25:05.053Z",
+      "dateHuman": "11 September 2026",
+      "excerpt": "The case highlights a broader shift in the cybercrime economy, where criminals can exploit human trust without ever breaching a device.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-09-10",
       "title": "Daily Tech Briefing — 10 September 2026",
       "dateISO": "2026-09-10T09:26:25.661Z",
