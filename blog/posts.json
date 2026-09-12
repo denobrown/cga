@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-09-12",
+      "title": "Daily Tech Briefing — 12 September 2026",
+      "dateISO": "2026-09-12T09:05:55.419Z",
+      "dateHuman": "12 September 2026",
+      "excerpt": "Many people see program management as just ‘project management with a softer title’ but in reality, the role is much deeper.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-09-11",
       "title": "Daily Tech Briefing — 11 September 2026",
       "dateISO": "2026-09-11T09:25:05.053Z",
