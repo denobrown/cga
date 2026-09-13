@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-09-13",
+      "title": "Daily Tech Briefing — 13 September 2026",
+      "dateISO": "2026-09-13T10:04:02.627Z",
+      "dateHuman": "13 September 2026",
+      "excerpt": "Shuttlers thinks that by assuring drivers a fixed amount, giving riders cheaper options and relying on customers' trust, it can make shared rides work in Lagos.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-09-12",
       "title": "Daily Tech Briefing — 12 September 2026",
       "dateISO": "2026-09-12T09:05:55.419Z",
