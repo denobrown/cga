@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-09-15",
+      "title": "Daily Tech Briefing — 15 September 2026",
+      "dateISO": "2026-09-15T09:50:08.176Z",
+      "dateHuman": "15 September 2026",
+      "excerpt": "Madica has invested $200,000 each in five new African startups, including its first bets in Algeria and Cameroon, bringing this year's total to $1.6 million.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-09-14",
       "title": "Daily Tech Briefing — 14 September 2026",
       "dateISO": "2026-09-14T10:24:10.863Z",
