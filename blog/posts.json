@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-09-17",
+      "title": "Daily Tech Briefing — 17 September 2026",
+      "dateISO": "2026-09-17T09:53:06.464Z",
+      "dateHuman": "17 September 2026",
+      "excerpt": "BIG will also use the capital to hire engineering, operations, logistics, and carbon-verification staff and build systems to monitor and verify the carbon removed through its process.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-09-16",
       "title": "Daily Tech Briefing — 16 September 2026",
       "dateISO": "2026-09-16T09:45:28.620Z",
