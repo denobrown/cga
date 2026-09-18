@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-09-18",
+      "title": "Daily Tech Briefing — 18 September 2026",
+      "dateISO": "2026-09-18T09:28:34.809Z",
+      "dateHuman": "18 September 2026",
+      "excerpt": "Aeon will use the funding to develop its cybersecurity products, expand business development, and turn existing pilots with financial services and cloud infrastructure companies into commercial deployments.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-09-17",
       "title": "Daily Tech Briefing — 17 September 2026",
       "dateISO": "2026-09-17T09:53:06.464Z",
