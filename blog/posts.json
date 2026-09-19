@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-09-19",
+      "title": "Daily Tech Briefing — 19 September 2026",
+      "dateISO": "2026-09-19T09:16:23.465Z",
+      "dateHuman": "19 September 2026",
+      "excerpt": "The plan would move Nigeria beyond simply owning and operating satellites towards making some of the equipment needed to turn them into connectivity services.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-09-18",
       "title": "Daily Tech Briefing — 18 September 2026",
       "dateISO": "2026-09-18T09:28:34.809Z",
