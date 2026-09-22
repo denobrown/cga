@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-09-22",
+      "title": "Daily Tech Briefing — 22 September 2026",
+      "dateISO": "2026-09-22T09:41:39.986Z",
+      "dateHuman": "22 September 2026",
+      "excerpt": "The deal deepens KCB’s push into payments and business software, giving the bank exposure to Pesapal’s merchant network across East Africa.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-09-21",
       "title": "Daily Tech Briefing — 21 September 2026",
       "dateISO": "2026-09-21T10:29:32.013Z",
