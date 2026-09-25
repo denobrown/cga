@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-09-25",
+      "title": "Daily Tech Briefing — 25 September 2026",
+      "dateISO": "2026-09-25T10:03:45.649Z",
+      "dateHuman": "25 September 2026",
+      "excerpt": "From a failed venture in South Africa to co-founding an AI cybersecurity powerhouse, CyberAlliance president Larry Yon II sits down with PHATHISANI MOYO for Coffee With… to explain why digital trust and diaspora capit…",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-09-24",
       "title": "Daily Tech Briefing — 24 September 2026",
       "dateISO": "2026-09-24T09:45:39.647Z",
