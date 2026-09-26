@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-09-26",
+      "title": "Daily Tech Briefing — 26 September 2026",
+      "dateISO": "2026-09-26T09:45:03.956Z",
+      "dateHuman": "26 September 2026",
+      "excerpt": "By May, the restructuring had also made several roles redundant; it affected Lisk blockchain’s regional leads and business development teams as the company pulled back from blockchain expansion.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-09-25",
       "title": "Daily Tech Briefing — 25 September 2026",
       "dateISO": "2026-09-25T10:03:45.649Z",
