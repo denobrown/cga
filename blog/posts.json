@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-10-03",
+      "title": "Daily Tech Briefing — 3 October 2026",
+      "dateISO": "2026-10-03T19:59:22.399Z",
+      "dateHuman": "3 October 2026",
+      "excerpt": "A thousand days of Cedisaver, an online marketplace designed to aggregate affordable clothing.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-09-26",
       "title": "Daily Tech Briefing — 26 September 2026",
       "dateISO": "2026-09-26T09:45:03.956Z",
