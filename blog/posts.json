@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-10-05",
+      "title": "Daily Tech Briefing — 5 October 2026",
+      "dateISO": "2026-10-05T11:59:29.608Z",
+      "dateHuman": "5 October 2026",
+      "excerpt": "The internal memo called it an “immediate suspension” caused by “ongoing operational challenges.” Those three corporate words concealed a relationship that was coming apart.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-10-04",
       "title": "Daily Tech Briefing — 4 October 2026",
       "dateISO": "2026-10-04T10:51:55.638Z",
