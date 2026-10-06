@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-10-06",
+      "title": "Daily Tech Briefing — 6 October 2026",
+      "dateISO": "2026-10-06T11:41:42.644Z",
+      "dateHuman": "6 October 2026",
+      "excerpt": "6 octobre 2026 Hello 👋, Welcome back to Francophone Weekly by TechCabal, your weekly deep dive into the tech ecosystem across French-speaking Africa.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-10-05",
       "title": "Daily Tech Briefing — 5 October 2026",
       "dateISO": "2026-10-05T11:59:29.608Z",
