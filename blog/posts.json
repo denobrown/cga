@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-10-08",
+      "title": "Daily Tech Briefing — 8 October 2026",
+      "dateISO": "2026-10-08T11:44:10.481Z",
+      "dateHuman": "8 October 2026",
+      "excerpt": "Nigeria’s new digital postcode system promises to make buildings easier to find, improving deliveries and access to essential services.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-10-07",
       "title": "Daily Tech Briefing — 7 October 2026",
       "dateISO": "2026-10-07T11:28:41.439Z",
