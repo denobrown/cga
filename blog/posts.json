@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-10-09",
+      "title": "Daily Tech Briefing — 9 October 2026",
+      "dateISO": "2026-10-09T11:37:22.099Z",
+      "dateHuman": "9 October 2026",
+      "excerpt": "Don’t get Watson Matsa started on farmers and banks, as we did.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-10-08",
       "title": "Daily Tech Briefing — 8 October 2026",
       "dateISO": "2026-10-08T11:44:10.481Z",
