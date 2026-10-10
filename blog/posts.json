@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-10-10",
+      "title": "Daily Tech Briefing — 10 October 2026",
+      "dateISO": "2026-10-10T10:55:08.683Z",
+      "dateHuman": "10 October 2026",
+      "excerpt": "The transaction completes an unexpected turnaround for the Techstars-backed startup, which informed customers in May that it had stopped processing new transactions and integrations, citing insufficient capital.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-10-09",
       "title": "Daily Tech Briefing — 9 October 2026",
       "dateISO": "2026-10-09T11:37:22.099Z",
