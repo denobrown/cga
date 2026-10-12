@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-10-12",
+      "title": "Daily Tech Briefing — 12 October 2026",
+      "dateISO": "2026-10-12T12:40:19.136Z",
+      "dateHuman": "12 October 2026",
+      "excerpt": "This is&#160;Follow the Money, our weekly series that unpacks the earnings, business, and scaling strategies of African fintechs, financial institutions, companies, and governments.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-10-11",
       "title": "Daily Tech Briefing — 11 October 2026",
       "dateISO": "2026-10-11T11:09:27.223Z",
