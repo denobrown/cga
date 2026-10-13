@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-10-13",
+      "title": "Daily Tech Briefing — 13 October 2026",
+      "dateISO": "2026-10-13T12:25:23.702Z",
+      "dateHuman": "13 October 2026",
+      "excerpt": "West Africa's central bank has doubled the amount customers can hold in mobile money wallets to FCFA 4 million ($6,850), while raising monthly top-up limits and relaxing rules on how issuers manage customer funds.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-10-12",
       "title": "Daily Tech Briefing — 12 October 2026",
       "dateISO": "2026-10-12T12:40:19.136Z",
