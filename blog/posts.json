@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-10-14",
+      "title": "Daily Tech Briefing — 14 October 2026",
+      "dateISO": "2026-10-14T09:53:25.844Z",
+      "dateHuman": "14 October 2026",
+      "excerpt": "Copia and Koko expose distinct weaknesses in businesses built to solve costly problems, from Copia's need for sufficient margins and working capital to Koko's dependence on carbon-credit revenue and regulatory approval.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-10-13",
       "title": "Daily Tech Briefing — 13 October 2026",
       "dateISO": "2026-10-13T12:25:23.702Z",
