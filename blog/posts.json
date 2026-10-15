@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-10-15",
+      "title": "Daily Tech Briefing — 15 October 2026",
+      "dateISO": "2026-10-15T09:34:16.850Z",
+      "dateHuman": "15 October 2026",
+      "excerpt": "In today's edition: Dangote IPO gets SADC vote &#124;&#124; Quickmart IPO to cost owners $4.5m &#124;&#124; Kenya nears FATF greylist exit &#124;&#124; Tanzania wants to prevent telecom damages",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-10-14",
       "title": "Daily Tech Briefing — 14 October 2026",
       "dateISO": "2026-10-14T09:53:25.844Z",
