@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-10-16",
+      "title": "Daily Tech Briefing — 16 October 2026",
+      "dateISO": "2026-10-16T09:27:05.944Z",
+      "dateHuman": "16 October 2026",
+      "excerpt": "As the youngest child in a household without a breadwinner, he felt responsible for helping support his family.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-10-15",
       "title": "Daily Tech Briefing — 15 October 2026",
       "dateISO": "2026-10-15T09:34:16.850Z",
