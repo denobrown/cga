@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-10-17",
+      "title": "Daily Tech Briefing — 17 October 2026",
+      "dateISO": "2026-10-17T08:58:29.310Z",
+      "dateHuman": "17 October 2026",
+      "excerpt": "Six years after Stripe's historic acquisition, Paystack is pivoting from moving money to keeping deposits to survive currency devaluations.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-10-16",
       "title": "Daily Tech Briefing — 16 October 2026",
       "dateISO": "2026-10-16T09:27:05.944Z",
