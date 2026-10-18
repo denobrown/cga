@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-10-18",
+      "title": "Daily Tech Briefing — 18 October 2026",
+      "dateISO": "2026-10-18T09:17:38.709Z",
+      "dateHuman": "18 October 2026",
+      "excerpt": "UniBeta uses AI to help Nigerian university students prepare for exams.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-10-17",
       "title": "Daily Tech Briefing — 17 October 2026",
       "dateISO": "2026-10-17T08:58:29.310Z",
