@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-10-19",
+      "title": "Daily Tech Briefing — 19 October 2026",
+      "dateISO": "2026-10-19T10:27:35.986Z",
+      "dateHuman": "19 October 2026",
+      "excerpt": "For lenders, they must determine whether a borrower earns enough to repay, whether that income can be verified, what other financial obligations the borrower has, and how likely they are to meet the repayment schedule.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-10-18",
       "title": "Daily Tech Briefing — 18 October 2026",
       "dateISO": "2026-10-18T09:17:38.709Z",
