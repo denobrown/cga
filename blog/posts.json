@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-10-20",
+      "title": "Daily Tech Briefing — 20 October 2026",
+      "dateISO": "2026-10-20T09:46:12.525Z",
+      "dateHuman": "20 October 2026",
+      "excerpt": "In today's edition: Nedbank completes NCBA takeover &#124;&#124; Why Onafriq shut down its Nigerian agent banking business &#124;&#124; Union calls for Temu, Shein ban in SA &#124;&#124; Camtel, Socadel to collaborate…",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-10-19",
       "title": "Daily Tech Briefing — 19 October 2026",
       "dateISO": "2026-10-19T10:27:35.986Z",
