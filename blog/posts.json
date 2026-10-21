@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-10-21",
+      "title": "Daily Tech Briefing — 21 October 2026",
+      "dateISO": "2026-10-21T09:47:13.818Z",
+      "dateHuman": "21 October 2026",
+      "excerpt": "In today's edition: MNT-Halan share price rises 6.6% &#124;&#124; Netflix lays off Africa content boss &#124;&#124; Trading for NCBA shares suspended &#124;&#124; Spiro launches e-bikes in Ghana",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-10-20",
       "title": "Daily Tech Briefing — 20 October 2026",
       "dateISO": "2026-10-20T09:46:12.525Z",
