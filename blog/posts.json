@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-10-22",
+      "title": "Daily Tech Briefing — 22 October 2026",
+      "dateISO": "2026-10-22T09:47:51.011Z",
+      "dateHuman": "22 October 2026",
+      "excerpt": "At the Build 2026 Conference in Abuja, Luminate CEO Melanie Hui warned that Nigeria loses millions annually to foreign cloud dependencies, stressing that Africa must build true digital sovereignty and infrastructure o…",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-10-21",
       "title": "Daily Tech Briefing — 21 October 2026",
       "dateISO": "2026-10-21T09:47:13.818Z",
