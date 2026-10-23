@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-10-23",
+      "title": "Daily Tech Briefing — 23 October 2026",
+      "dateISO": "2026-10-23T09:42:39.578Z",
+      "dateHuman": "23 October 2026",
+      "excerpt": "Millicent Okumu doesn’t leave you wondering whether she believes what she is saying.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-10-22",
       "title": "Daily Tech Briefing — 22 October 2026",
       "dateISO": "2026-10-22T09:47:51.011Z",
