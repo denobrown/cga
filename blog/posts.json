@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-10-24",
+      "title": "Daily Tech Briefing — 24 October 2026",
+      "dateISO": "2026-10-24T09:15:59.375Z",
+      "dateHuman": "24 October 2026",
+      "excerpt": "Africa’s deep tech ambitions are growing, but limited infrastructure, funding, talent and policy support make building harder.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-10-23",
       "title": "Daily Tech Briefing — 23 October 2026",
       "dateISO": "2026-10-23T09:42:39.578Z",
