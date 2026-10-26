@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-10-26",
+      "title": "Daily Tech Briefing — 26 October 2026",
+      "dateISO": "2026-10-26T10:42:57.791Z",
+      "dateHuman": "26 October 2026",
+      "excerpt": "INFRAGORA plans to begin building two AI-ready data centres in Nigeria by Q2 2027, backed by a proposed $650 million–$1 billion investment and dedicated power infrastructure.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-10-25",
       "title": "Daily Tech Briefing — 25 October 2026",
       "dateISO": "2026-10-25T09:32:13.453Z",
