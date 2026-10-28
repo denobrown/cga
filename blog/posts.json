@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-10-28",
+      "title": "Daily Tech Briefing — 28 October 2026",
+      "dateISO": "2026-10-28T10:55:55.791Z",
+      "dateHuman": "28 October 2026",
+      "excerpt": "In today's edition: FirstRand eyes banking in Kenya &#124;&#124; Safaricom fires employees over fraud &#124;&#124; Moniepoint’s restructuring &#124;&#124; CrissCross raises funding",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-10-27",
       "title": "Daily Tech Briefing — 27 October 2026",
       "dateISO": "2026-10-27T10:10:04.361Z",
