@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-10-30",
+      "title": "Daily Tech Briefing — 30 October 2026",
+      "dateISO": "2026-10-30T11:08:20.673Z",
+      "dateHuman": "30 October 2026",
+      "excerpt": "Banks must anticipate customers’ needs and embed financial services into everyday transactions to compete with digital platforms, executives from Access Holdings and OPay told Moonshot by TechCabal in Lagos.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-10-29",
       "title": "Daily Tech Briefing — 29 October 2026",
       "dateISO": "2026-10-29T11:14:09.182Z",
