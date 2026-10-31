@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-10-31",
+      "title": "Daily Tech Briefing — 31 October 2026",
+      "dateISO": "2026-10-31T10:41:37.457Z",
+      "dateHuman": "31 October 2026",
+      "excerpt": "Credit Direct, the consumer lending subsidiary of FCMB Group, a Nigerian financial services group, is expanding beyond traditional lending into embedded finance as it seeks to make credit and other financial services …",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-10-30",
       "title": "Daily Tech Briefing — 30 October 2026",
       "dateISO": "2026-10-30T11:08:20.673Z",
