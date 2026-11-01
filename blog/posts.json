@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-11-01",
+      "title": "Daily Tech Briefing — 1 November 2026",
+      "dateISO": "2026-11-01T11:37:24.306Z",
+      "dateHuman": "1 November 2026",
+      "excerpt": "Verve plans to let customers pay by tapping their phones and, eventually, to let AI assistants make payments on their behalf.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-10-31",
       "title": "Daily Tech Briefing — 31 October 2026",
       "dateISO": "2026-10-31T10:41:37.457Z",
