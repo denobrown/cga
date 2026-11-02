@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-11-02",
+      "title": "Daily Tech Briefing — 2 November 2026",
+      "dateISO": "2026-11-02T13:00:34.328Z",
+      "dateHuman": "2 November 2026",
+      "excerpt": "This is an awkward explanation for a company whose bankers had just abandoned its biggest capital markets transaction.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-11-01",
       "title": "Daily Tech Briefing — 1 November 2026",
       "dateISO": "2026-11-01T11:37:24.306Z",
