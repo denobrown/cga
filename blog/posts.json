@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-11-03",
+      "title": "Daily Tech Briefing — 3 November 2026",
+      "dateISO": "2026-11-03T12:34:32.936Z",
+      "dateHuman": "3 November 2026",
+      "excerpt": "Africa’s crypto adoption has surged, moving rapidly from speculation to real-world utility like cross-border payments.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-11-02",
       "title": "Daily Tech Briefing — 2 November 2026",
       "dateISO": "2026-11-02T13:00:34.328Z",
