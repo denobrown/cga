@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-11-04",
+      "title": "Daily Tech Briefing — 4 November 2026",
+      "dateISO": "2026-11-04T12:43:48.301Z",
+      "dateHuman": "4 November 2026",
+      "excerpt": "In today's edition: Grey secures Nigerian IMTO licence &#124;&#124; Banque du Caire’s underwhelming IPO &#124;&#124; NCBA transfers shares to Nedbank &#124;&#124; Egypt's Raya eyes digital banking",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-11-03",
       "title": "Daily Tech Briefing — 3 November 2026",
       "dateISO": "2026-11-03T12:34:32.936Z",
