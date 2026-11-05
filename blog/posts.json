@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-11-05",
+      "title": "Daily Tech Briefing — 5 November 2026",
+      "dateISO": "2026-11-05T12:53:52.032Z",
+      "dateHuman": "5 November 2026",
+      "excerpt": "Uzoma Dozie, CEO of Sparkle MFB, says Nigerian banks must rethink collateral requirements and use transaction data and AI to expand lending to small businesses, lower borrowing costs, and improve financial inclusion.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-11-04",
       "title": "Daily Tech Briefing — 4 November 2026",
       "dateISO": "2026-11-04T12:43:48.301Z",
@@ -1062,18 +1074,6 @@
       "dateISO": "2026-08-02T07:33:28.860Z",
       "dateHuman": "2 August 2026",
       "excerpt": "Angelopoulos, who joins Nedbank on September 1, spent eight years overseeing technology strategy, cloud investments and digital infrastructure across MTN Group's 16 markets.",
-      "lanes": [
-        "Africa & Kenya Tech",
-        "Security",
-        "Global Tech & Cloud"
-      ]
-    },
-    {
-      "slug": "daily-briefing-2026-08-01",
-      "title": "Daily Tech Briefing — 2 August 2026",
-      "dateISO": "2026-08-01T21:59:08.163Z",
-      "dateHuman": "2 August 2026",
-      "excerpt": "Between 2016 and 2020, she worked in advertising and branding, developing campaigns for clients including Nigerian tier-one lenders Access Bank and Zenith Bank.",
       "lanes": [
         "Africa & Kenya Tech",
         "Security",
