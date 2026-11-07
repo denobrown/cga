@@ -21,7 +21,7 @@
 // Bump CACHE_VERSION whenever the app-shell file list changes, so
 // old caches get cleaned up on the next activate.
 
-const CACHE_VERSION = 'cga-shell-v1';
+const CACHE_VERSION = 'cga-shell-v2';
 const APP_SHELL = [
   '/',
   '/manifest.json',
