@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-11-07",
+      "title": "Daily Tech Briefing — 7 November 2026",
+      "dateISO": "2026-11-07T11:26:54.035Z",
+      "dateHuman": "7 November 2026",
+      "excerpt": "Qatar is offering foreign tech startups up to $5.5 million in funding, alongside residency and relocation support, as it seeks to attract entrepreneurs to Doha.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-11-06",
       "title": "Daily Tech Briefing — 6 November 2026",
       "dateISO": "2026-11-06T12:40:06.566Z",
@@ -1062,18 +1074,6 @@
       "dateISO": "2026-08-04T07:41:57.915Z",
       "dateHuman": "4 August 2026",
       "excerpt": "In today's edition: Nigeria issues crypto tax rules &#124;&#124; South Africa’s new rules for spam callers &#124;&#124; South Africa’s capital-control rules for crypto &#124;&#124; DR Congo walks back on digital tax p…",
-      "lanes": [
-        "Africa & Kenya Tech",
-        "Security",
-        "Global Tech & Cloud"
-      ]
-    },
-    {
-      "slug": "daily-briefing-2026-08-03",
-      "title": "Daily Tech Briefing — 3 August 2026",
-      "dateISO": "2026-08-03T08:37:17.127Z",
-      "dateHuman": "3 August 2026",
-      "excerpt": "In today's edition: South Africans are paying less for TV, shopping &#124;&#124; Kenya to tackle piracy &#124;&#124; HSBC Egypt finds a buyer for retail business &#124;&#124; Telecom Namibia extends acting CEO tenure",
       "lanes": [
         "Africa & Kenya Tech",
         "Security",
