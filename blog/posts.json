@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-11-08",
+      "title": "Daily Tech Briefing — 8 November 2026",
+      "dateISO": "2026-11-08T11:38:36.660Z",
+      "dateHuman": "8 November 2026",
+      "excerpt": "A November 2026 report by TLP Advisory reveals that the UK is a key base for African tech companies.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-11-07",
       "title": "Daily Tech Briefing — 7 November 2026",
       "dateISO": "2026-11-07T11:26:54.035Z",
@@ -1062,18 +1074,6 @@
       "dateISO": "2026-08-05T07:42:23.206Z",
       "dateHuman": "5 August 2026",
       "excerpt": "Egyptian prop-tech startup Partment is working to redefine second-home ownership and real estate investment via its &#8220;invest and experience&#8221; co-ownership platform.",
-      "lanes": [
-        "Africa & Kenya Tech",
-        "Security",
-        "Global Tech & Cloud"
-      ]
-    },
-    {
-      "slug": "daily-briefing-2026-08-04",
-      "title": "Daily Tech Briefing — 4 August 2026",
-      "dateISO": "2026-08-04T07:41:57.915Z",
-      "dateHuman": "4 August 2026",
-      "excerpt": "In today's edition: Nigeria issues crypto tax rules &#124;&#124; South Africa’s new rules for spam callers &#124;&#124; South Africa’s capital-control rules for crypto &#124;&#124; DR Congo walks back on digital tax p…",
       "lanes": [
         "Africa & Kenya Tech",
         "Security",
