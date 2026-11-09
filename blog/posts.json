@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-11-09",
+      "title": "Daily Tech Briefing — 9 November 2026",
+      "dateISO": "2026-11-09T13:33:11.272Z",
+      "dateHuman": "9 November 2026",
+      "excerpt": "Money Fellows built its model around digitising an old saving habit in Egypt.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-11-08",
       "title": "Daily Tech Briefing — 8 November 2026",
       "dateISO": "2026-11-08T11:38:36.660Z",
@@ -1062,18 +1074,6 @@
       "dateISO": "2026-08-06T07:42:22.768Z",
       "dateHuman": "6 August 2026",
       "excerpt": "In partnership with Lire en Français اقرأ هذا باللغة العربية Good morning.",
-      "lanes": [
-        "Africa & Kenya Tech",
-        "Security",
-        "Global Tech & Cloud"
-      ]
-    },
-    {
-      "slug": "daily-briefing-2026-08-05",
-      "title": "Daily Tech Briefing — 5 August 2026",
-      "dateISO": "2026-08-05T07:42:23.206Z",
-      "dateHuman": "5 August 2026",
-      "excerpt": "Egyptian prop-tech startup Partment is working to redefine second-home ownership and real estate investment via its &#8220;invest and experience&#8221; co-ownership platform.",
       "lanes": [
         "Africa & Kenya Tech",
         "Security",
