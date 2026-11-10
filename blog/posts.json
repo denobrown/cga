@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-11-10",
+      "title": "Daily Tech Briefing — 10 November 2026",
+      "dateISO": "2026-11-10T13:12:19.454Z",
+      "dateHuman": "10 November 2026",
+      "excerpt": "Nigeria’s Ministry of Youth Development, through the Nigerian Youth Academy (NiYA), and Cascador have awarded ₦5 million ($3,711) each to eight Nigerian founders to help grow their businesses.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-11-09",
       "title": "Daily Tech Briefing — 9 November 2026",
       "dateISO": "2026-11-09T13:33:11.272Z",
@@ -1062,18 +1074,6 @@
       "dateISO": "2026-08-07T06:10:41.821Z",
       "dateHuman": "7 August 2026",
       "excerpt": "Meet Mohammed Bashir Yunusa, the Divisional Head, Digital Banking &#038; Commerce at The Alternative Bank, with over 15 years of experience creating value across the financial services industry.",
-      "lanes": [
-        "Africa & Kenya Tech",
-        "Security",
-        "Global Tech & Cloud"
-      ]
-    },
-    {
-      "slug": "daily-briefing-2026-08-06",
-      "title": "Daily Tech Briefing — 6 August 2026",
-      "dateISO": "2026-08-06T07:42:22.768Z",
-      "dateHuman": "6 August 2026",
-      "excerpt": "In partnership with Lire en Français اقرأ هذا باللغة العربية Good morning.",
       "lanes": [
         "Africa & Kenya Tech",
         "Security",
