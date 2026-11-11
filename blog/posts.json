@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-11-11",
+      "title": "Daily Tech Briefing — 11 November 2026",
+      "dateISO": "2026-11-11T12:21:13.624Z",
+      "dateHuman": "11 November 2026",
+      "excerpt": "As venture capital funds age, managers face a critical challenge: performing companies with meaningful upside that no longer align with the fund's remaining life.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-11-10",
       "title": "Daily Tech Briefing — 10 November 2026",
       "dateISO": "2026-11-10T13:12:19.454Z",
@@ -1062,18 +1074,6 @@
       "dateISO": "2026-08-08T05:43:50.620Z",
       "dateHuman": "8 August 2026",
       "excerpt": "IHS Towers has completed the sale of its Latin American tower operations to Macquarie Asset Management, exiting the region as the company reshapes its portfolio ahead of MTN Group’s planned acquisition.",
-      "lanes": [
-        "Africa & Kenya Tech",
-        "Security",
-        "Global Tech & Cloud"
-      ]
-    },
-    {
-      "slug": "daily-briefing-2026-08-07",
-      "title": "Daily Tech Briefing — 7 August 2026",
-      "dateISO": "2026-08-07T06:10:41.821Z",
-      "dateHuman": "7 August 2026",
-      "excerpt": "Meet Mohammed Bashir Yunusa, the Divisional Head, Digital Banking &#038; Commerce at The Alternative Bank, with over 15 years of experience creating value across the financial services industry.",
       "lanes": [
         "Africa & Kenya Tech",
         "Security",
