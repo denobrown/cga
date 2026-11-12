@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-11-12",
+      "title": "Daily Tech Briefing — 12 November 2026",
+      "dateISO": "2026-11-12T13:29:38.161Z",
+      "dateHuman": "12 November 2026",
+      "excerpt": "In today's edition: Egypt’s remittances reach record $38.2 billion &#124;&#124; Ghana targets 70% 5G coverage by March 2027 &#124;&#124; Kenya launches new cybersecurity centre &#124;&#124; Telkom challenges telecoms …",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-11-11",
       "title": "Daily Tech Briefing — 11 November 2026",
       "dateISO": "2026-11-11T12:21:13.624Z",
@@ -1062,18 +1074,6 @@
       "dateISO": "2026-08-09T05:48:30.987Z",
       "dateHuman": "9 August 2026",
       "excerpt": "Medwaka is an emergency response platform that connects patients experiencing medical emergencies with nearby hospitals, ambulances, and trained first responders through a mobile app.",
-      "lanes": [
-        "Africa & Kenya Tech",
-        "Security",
-        "Global Tech & Cloud"
-      ]
-    },
-    {
-      "slug": "daily-briefing-2026-08-08",
-      "title": "Daily Tech Briefing — 8 August 2026",
-      "dateISO": "2026-08-08T05:43:50.620Z",
-      "dateHuman": "8 August 2026",
-      "excerpt": "IHS Towers has completed the sale of its Latin American tower operations to Macquarie Asset Management, exiting the region as the company reshapes its portfolio ahead of MTN Group’s planned acquisition.",
       "lanes": [
         "Africa & Kenya Tech",
         "Security",
