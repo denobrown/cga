@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-11-14",
+      "title": "Daily Tech Briefing — 14 November 2026",
+      "dateISO": "2026-11-14T11:54:21.344Z",
+      "dateHuman": "14 November 2026",
+      "excerpt": "Microsoft's global outage disrupted South African businesses and public institutions, including Eskom, Absa and FlySafair, exposing the country's growing dependence on Big Tech's cloud infrastructure.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-11-13",
       "title": "Daily Tech Briefing — 13 November 2026",
       "dateISO": "2026-11-13T12:47:02.106Z",
@@ -1062,18 +1074,6 @@
       "dateISO": "2026-08-11T05:54:34.876Z",
       "dateHuman": "11 August 2026",
       "excerpt": "Nigeria is moving to bring more of its cloud infrastructure within the country, seeking to cut reliance on overseas systems and keep more of the digital economy’s value at home.",
-      "lanes": [
-        "Africa & Kenya Tech",
-        "Security",
-        "Global Tech & Cloud"
-      ]
-    },
-    {
-      "slug": "daily-briefing-2026-08-10",
-      "title": "Daily Tech Briefing — 10 August 2026",
-      "dateISO": "2026-08-10T06:12:15.092Z",
-      "dateHuman": "10 August 2026",
-      "excerpt": "Pause Point is a new Digital Wellbeing feature Google unveiled during its Android announcements ahead of Google I/O 2026.",
       "lanes": [
         "Africa & Kenya Tech",
         "Security",
