@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-11-15",
+      "title": "Daily Tech Briefing — 15 November 2026",
+      "dateISO": "2026-11-15T12:26:21.605Z",
+      "dateHuman": "15 November 2026",
+      "excerpt": "AyaHQ has been a stablecoin payments product, a remote-jobs marketplace, a training programme, a founder programme, and the operator of physical residencies in two countries.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-11-14",
       "title": "Daily Tech Briefing — 14 November 2026",
       "dateISO": "2026-11-14T11:54:21.344Z",
@@ -1062,18 +1074,6 @@
       "dateISO": "2026-08-12T06:17:23.855Z",
       "dateHuman": "12 August 2026",
       "excerpt": "MTN’s underlying earnings are expected to rise by up to 23%, but a write-down on its Irancell investment, compounded by hyperinflation and foreign exchange losses, is dragging reported earnings lower.",
-      "lanes": [
-        "Africa & Kenya Tech",
-        "Security",
-        "Global Tech & Cloud"
-      ]
-    },
-    {
-      "slug": "daily-briefing-2026-08-11",
-      "title": "Daily Tech Briefing — 11 August 2026",
-      "dateISO": "2026-08-11T05:54:34.876Z",
-      "dateHuman": "11 August 2026",
-      "excerpt": "Nigeria is moving to bring more of its cloud infrastructure within the country, seeking to cut reliance on overseas systems and keep more of the digital economy’s value at home.",
       "lanes": [
         "Africa & Kenya Tech",
         "Security",
