@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-11-16",
+      "title": "Daily Tech Briefing — 16 November 2026",
+      "dateISO": "2026-11-16T13:18:22.905Z",
+      "dateHuman": "16 November 2026",
+      "excerpt": "When the Nigerian government launched the 3 Million Technical Talent (3MTT) programme in 2023, it sought to build a workforce that could support the country’s digital economy, fill technical skills gaps and position N…",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-11-15",
       "title": "Daily Tech Briefing — 15 November 2026",
       "dateISO": "2026-11-15T12:26:21.605Z",
@@ -1062,18 +1074,6 @@
       "dateISO": "2026-08-13T06:18:50.262Z",
       "dateHuman": "13 August 2026",
       "excerpt": "In today's edition: Virtual asset firms to join CBN’s sandbox &#124;&#124; Jumia secures $50 million equity funding &#124;&#124; Shoprite’s Sixty60 is having a moment &#124;&#124; Vodacom taps ex-Airtel CEO to join board",
-      "lanes": [
-        "Africa & Kenya Tech",
-        "Security",
-        "Global Tech & Cloud"
-      ]
-    },
-    {
-      "slug": "daily-briefing-2026-08-12",
-      "title": "Daily Tech Briefing — 12 August 2026",
-      "dateISO": "2026-08-12T06:17:23.855Z",
-      "dateHuman": "12 August 2026",
-      "excerpt": "MTN’s underlying earnings are expected to rise by up to 23%, but a write-down on its Irancell investment, compounded by hyperinflation and foreign exchange losses, is dragging reported earnings lower.",
       "lanes": [
         "Africa & Kenya Tech",
         "Security",
