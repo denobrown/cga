@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-11-18",
+      "title": "Daily Tech Briefing — 18 November 2026",
+      "dateISO": "2026-11-18T13:37:52.702Z",
+      "dateHuman": "18 November 2026",
+      "excerpt": "Miden has partnered with payments giant Visa to help mid- to large-sized African businesses issue virtual cards and manage company spending through a single platform.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-11-17",
       "title": "Daily Tech Briefing — 17 November 2026",
       "dateISO": "2026-11-17T14:03:21.833Z",
@@ -1062,18 +1074,6 @@
       "dateISO": "2026-08-15T05:27:49.398Z",
       "dateHuman": "15 August 2026",
       "excerpt": "Google Antigravity explained: what the agentic development platform is, how AI agents work, and why it matters for the future of coding.",
-      "lanes": [
-        "Africa & Kenya Tech",
-        "Security",
-        "Global Tech & Cloud"
-      ]
-    },
-    {
-      "slug": "daily-briefing-2026-08-14",
-      "title": "Daily Tech Briefing — 14 August 2026",
-      "dateISO": "2026-08-14T06:16:21.469Z",
-      "dateHuman": "14 August 2026",
-      "excerpt": "On today's edition: Kenya goes easy on cyber cafes &#124;&#124; E-Finance eyes Egyptian expansion &#124;&#124; South Africa’s rocket-launch plans &#124;&#124; Who secured the bag?",
       "lanes": [
         "Africa & Kenya Tech",
         "Security",
