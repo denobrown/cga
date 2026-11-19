@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-11-19",
+      "title": "Daily Tech Briefing — 19 November 2026",
+      "dateISO": "2026-11-19T14:04:09.508Z",
+      "dateHuman": "19 November 2026",
+      "excerpt": "Oppo launched the Reno 17 in China on November 16, 2026, alongside the Reno 17 Pro.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-11-18",
       "title": "Daily Tech Briefing — 18 November 2026",
       "dateISO": "2026-11-18T13:37:52.702Z",
@@ -1062,18 +1074,6 @@
       "dateISO": "2026-08-16T05:31:08.069Z",
       "dateHuman": "16 August 2026",
       "excerpt": "In 2026, South Africa has taken a harder stance against undocumented immigration, stepping up workplace inspections and putting greater pressure on employers who hire foreign workers without valid work authorisation.",
-      "lanes": [
-        "Africa & Kenya Tech",
-        "Security",
-        "Global Tech & Cloud"
-      ]
-    },
-    {
-      "slug": "daily-briefing-2026-08-15",
-      "title": "Daily Tech Briefing — 15 August 2026",
-      "dateISO": "2026-08-15T05:27:49.398Z",
-      "dateHuman": "15 August 2026",
-      "excerpt": "Google Antigravity explained: what the agentic development platform is, how AI agents work, and why it matters for the future of coding.",
       "lanes": [
         "Africa & Kenya Tech",
         "Security",
