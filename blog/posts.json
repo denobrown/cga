@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+      "slug": "daily-briefing-2026-11-20",
+      "title": "Daily Tech Briefing — 20 November 2026",
+      "dateISO": "2026-11-20T13:47:07.522Z",
+      "dateHuman": "20 November 2026",
+      "excerpt": "There are 146 companies listed on the Nigerian Exchange (NGX), a number the bourse wants to double as it works towards a $1 trillion market capitalisation over the next decade.",
+      "lanes": [
+        "Africa & Kenya Tech",
+        "Security",
+        "Global Tech & Cloud"
+      ]
+    },
+    {
       "slug": "daily-briefing-2026-11-19",
       "title": "Daily Tech Briefing — 19 November 2026",
       "dateISO": "2026-11-19T14:04:09.508Z",
@@ -1062,18 +1074,6 @@
       "dateISO": "2026-08-17T05:37:33.201Z",
       "dateHuman": "17 August 2026",
       "excerpt": "Nigeria’s SEC has admitted Yellow Card, Blockchain, and Pisi into its regulatory sandbox, expanding the ARIP programme to 12 firms since July.",
-      "lanes": [
-        "Africa & Kenya Tech",
-        "Security",
-        "Global Tech & Cloud"
-      ]
-    },
-    {
-      "slug": "daily-briefing-2026-08-16",
-      "title": "Daily Tech Briefing — 16 August 2026",
-      "dateISO": "2026-08-16T05:31:08.069Z",
-      "dateHuman": "16 August 2026",
-      "excerpt": "In 2026, South Africa has taken a harder stance against undocumented immigration, stepping up workplace inspections and putting greater pressure on employers who hire foreign workers without valid work authorisation.",
       "lanes": [
         "Africa & Kenya Tech",
         "Security",
